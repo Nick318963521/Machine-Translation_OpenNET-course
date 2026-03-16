@@ -1,0 +1,8 @@
+# Minimal dependencies for this course project
+# Install with: .venv/Scripts/python.exe -m pip install -r requirements.txt
+OpenNMT-py==3.5.1
+pyonmttok==1.38.1
+sacrebleu==2.6.0
+matplotlib==3.10.8
+streamlit==1.55.0
+numpy<2

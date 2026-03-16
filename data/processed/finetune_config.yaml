@@ -1,0 +1,52 @@
+﻿save_data: E:/a_DA/Machine-Translation_OpenNET/data/processed/domain_data
+src_vocab: E:/a_DA/Machine-Translation_OpenNET/data/processed/vocab.src
+tgt_vocab: E:/a_DA/Machine-Translation_OpenNET/data/processed/vocab.tgt
+
+data:
+  corpus_1:
+    path_src: E:/a_DA/Machine-Translation_OpenNET/data/processed/train.src
+    path_tgt: E:/a_DA/Machine-Translation_OpenNET/data/processed/train.tgt
+  valid:
+    path_src: E:/a_DA/Machine-Translation_OpenNET/data/processed/valid.src
+    path_tgt: E:/a_DA/Machine-Translation_OpenNET/data/processed/valid.tgt
+
+save_model: E:/a_DA/Machine-Translation_OpenNET/models/finetuned_model
+save_checkpoint_steps: 200
+keep_checkpoint: 8
+train_steps: 200
+valid_steps: 100
+report_every: 50
+
+src_seq_length: 120
+tgt_seq_length: 120
+src_vocab_size: 16000
+tgt_vocab_size: 16000
+
+encoder_type: transformer
+decoder_type: transformer
+position_encoding: true
+enc_layers: 4
+dec_layers: 4
+heads: 4
+hidden_size: 256
+word_vec_size: 256
+transformer_ff: 1024
+dropout: 0.1
+
+optim: adam
+learning_rate: 2.0
+warmup_steps: 4000
+decay_method: noam
+label_smoothing: 0.1
+param_init_glorot: true
+
+batch_size: 8
+valid_batch_size: 8
+batch_type: sents
+accum_count: 2
+num_workers: 0
+world_size: 1
+gpu_ranks: []
+n_sample: 0
+train_from: E:/a_DA/Machine-Translation_OpenNET/models/baseline_pretrained.pt
+

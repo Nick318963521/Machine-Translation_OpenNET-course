@@ -1,0 +1,9 @@
+category,metric,value,notes
+bleu,baseline_bleu,0.0000,test set
+bleu,finetuned_bleu,0.0000,test set
+bleu,bleu_improvement_pct,0.00,(finetuned-baseline)/baseline*100
+throughput,model_compare_speed_change_pct,0.47,finetuned vs baseline sent_per_sec
+latency,model_compare_latency_change_pct,-0.47,finetuned vs baseline elapsed_time
+cache,cache_speedup_pct,55449681.41,cache_on vs cache_off sent_per_sec
+cache,cache_latency_reduction_pct,-0.00,(off-on)/off*100
+cache,cache_hits,18,"cache_compare, cache_enabled=True"

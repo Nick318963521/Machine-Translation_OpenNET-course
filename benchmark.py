@@ -10,7 +10,7 @@ from glossary import load_glossary
 from translator_backend import get_model_registry
 
 
-BASE_DIR = r"D:\opennmt_project"
+BASE_DIR = os.environ.get("OPENNMT_PROJECT_ROOT", os.path.dirname(os.path.abspath(__file__)))
 OUTPUT_CSV = os.path.join(BASE_DIR, "outputs", "benchmark_results.csv")
 
 

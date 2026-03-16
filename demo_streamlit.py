@@ -12,7 +12,7 @@ from translator_backend import get_model_registry
 
 st.set_page_config(page_title="OpenNMT Local Demo", layout="wide")
 
-BASE_DIR = r"D:\opennmt_project"
+BASE_DIR = os.environ.get("OPENNMT_PROJECT_ROOT", os.path.dirname(os.path.abspath(__file__)))
 OUTPUT_DIR = os.path.join(BASE_DIR, "outputs")
 SAVED_OUTPUT = os.path.join(OUTPUT_DIR, "streamlit_output.txt")
 

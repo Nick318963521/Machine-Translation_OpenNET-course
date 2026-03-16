@@ -6,7 +6,7 @@ from typing import Dict, List
 import matplotlib.pyplot as plt
 
 
-BASE_DIR = r"D:\opennmt_project"
+BASE_DIR = os.environ.get("OPENNMT_PROJECT_ROOT", os.path.dirname(os.path.abspath(__file__)))
 BENCHMARK_CSV = os.path.join(BASE_DIR, "outputs", "benchmark_results.csv")
 OUTPUT_DIR = os.path.join(BASE_DIR, "outputs")
 

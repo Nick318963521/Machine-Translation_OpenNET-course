@@ -5,7 +5,7 @@ import uuid
 from typing import Dict, List, Optional
 
 
-BASE_DIR = r"D:\opennmt_project"
+BASE_DIR = os.environ.get("OPENNMT_PROJECT_ROOT", os.path.dirname(os.path.abspath(__file__)))
 OPENNMT_DIR = os.path.join(BASE_DIR, "OpenNMT-py")
 TMP_DIR = os.path.join(BASE_DIR, "tmp")
 MODELS_DIR = os.path.join(BASE_DIR, "models")
@@ -55,6 +55,13 @@ def resolve_model_path(model_path: Optional[str] = None, model_type: str = "base
         for candidate in BASELINE_MODEL_CANDIDATES:
             if os.path.exists(candidate):
                 return candidate
+        matched_files: List[str] = []
+        for pattern in FINETUNED_MODEL_GLOB_PATTERNS:
+            matched_files.extend(glob.glob(pattern))
+        matched_files = [path for path in matched_files if os.path.exists(path)]
+        if matched_files:
+            matched_files.sort(key=os.path.getmtime, reverse=True)
+            return matched_files[0]
         raise FileNotFoundError("Baseline model not found.")
 
     if model_type == "finetuned":
@@ -81,26 +88,47 @@ def run_translation(
     batch_size: int = 4,
 ) -> None:
     os.makedirs(os.path.dirname(output_file), exist_ok=True)
-    command = [
-        get_python_executable(),
-        TRANSLATE_SCRIPT,
-        "-model",
-        model_path,
-        "-src",
-        src_file,
-        "-output",
-        output_file,
-        "-beam_size",
-        str(beam_size),
-        "-batch_size",
-        str(batch_size),
-        "-gpu",
-        "-1",
-    ]
+    if os.path.exists(TRANSLATE_SCRIPT):
+        command = [
+            get_python_executable(),
+            TRANSLATE_SCRIPT,
+            "-model",
+            model_path,
+            "-src",
+            src_file,
+            "-output",
+            output_file,
+            "-beam_size",
+            str(beam_size),
+            "-batch_size",
+            str(batch_size),
+            "-gpu",
+            "-1",
+        ]
+        cwd = OPENNMT_DIR
+    else:
+        command = [
+            get_python_executable(),
+            "-m",
+            "onmt.bin.translate",
+            "-model",
+            model_path,
+            "-src",
+            src_file,
+            "-output",
+            output_file,
+            "-beam_size",
+            str(beam_size),
+            "-batch_size",
+            str(batch_size),
+            "-gpu",
+            "-1",
+        ]
+        cwd = BASE_DIR
 
     result = subprocess.run(
         command,
-        cwd=OPENNMT_DIR,
+        cwd=cwd,
         capture_output=True,
         text=True,
         check=False,

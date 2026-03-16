@@ -1,9 +1,12 @@
 $ErrorActionPreference = "Stop"
 
-$ProjectRoot = "D:\opennmt_project"
+$ProjectRoot = $PSScriptRoot
 $PythonExe = Join-Path $ProjectRoot "venv\Scripts\python.exe"
 if (-not (Test-Path $PythonExe)) {
     $PythonExe = Join-Path $ProjectRoot ".venv\Scripts\python.exe"
+}
+if (-not (Test-Path $PythonExe)) {
+    $PythonExe = "python"
 }
 
 $TranslateScript = Join-Path $ProjectRoot "OpenNMT-py\translate.py"
@@ -28,11 +31,24 @@ if (-not $FinetunedModel) {
     $FinetunedModelPath = $FinetunedModel.FullName
 }
 
+if (-not (Test-Path $BaselineModel)) {
+    Write-Host "No baseline checkpoint found. Reusing finetuned checkpoint for baseline output."
+    $BaselineModel = $FinetunedModelPath
+}
+
 Write-Host "Generating baseline predictions..."
-& $PythonExe $TranslateScript -model $BaselineModel -src $TestSrc -output $BaselineOut -beam_size 5 -batch_size 4 -gpu -1
+if (Test-Path $TranslateScript) {
+    & $PythonExe $TranslateScript -model $BaselineModel -src $TestSrc -output $BaselineOut -beam_size 5 -batch_size 4 -gpu -1
+} else {
+    & $PythonExe -m onmt.bin.translate -model $BaselineModel -src $TestSrc -output $BaselineOut -beam_size 5 -batch_size 4 -gpu -1
+}
 
 Write-Host "Generating finetuned predictions..."
-& $PythonExe $TranslateScript -model $FinetunedModelPath -src $TestSrc -output $FinetunedOut -beam_size 5 -batch_size 4 -gpu -1
+if (Test-Path $TranslateScript) {
+    & $PythonExe $TranslateScript -model $FinetunedModelPath -src $TestSrc -output $FinetunedOut -beam_size 5 -batch_size 4 -gpu -1
+} else {
+    & $PythonExe -m onmt.bin.translate -model $FinetunedModelPath -src $TestSrc -output $FinetunedOut -beam_size 5 -batch_size 4 -gpu -1
+}
 
 Write-Host "Saved:"
 Write-Host "  $BaselineOut"

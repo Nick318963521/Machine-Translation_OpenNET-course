@@ -1,0 +1,1020 @@
+source,target
+Keyboard Accessibility Preferences,Preferencias de accesibilidad del teclado
+Help,Ayuda
+About,Acerca de
+AccessX Status Applet Factory,Fábrica de la miniaplicación Estado de AccessX
+Keyboard Accessibility Status Applet Factory,Fábrica de la miniaplicación de estado de accesibilidad del teclado
+Keyboard Accessibility Status,Estado de accesibilidad del teclado
+Shows the status of keyboard accessibility features,Muestra el estado de las características de accesibilidad del teclado
+Shows the state of AccessX features such as latched modifiers,Muestra el estado de las características AccessX como los modificadores bloqueadosdocumenters
+There was an error launching the help viewer: %s,Ocurrió un error al lanzar el visor de ayuda: %s
+There was an error launching the keyboard preferences dialog: %s,Ocurrió un error al lanzar el diálogo de preferencias del teclado: %s
+AccessX Status,Estado de AccessX
+Shows keyboard status when accessibility features are used.,Muestra el estado del teclado cuando se usan las características de accesibilidad.
+XKB Extension is not enabled,La extensión XKB no está activada
+Unknown error,Error desconocido
+Error: %s,Error: %s
+Displays current state of keyboard accessibility features,Muestra el estado actual de las características de accesibilidad del teclado
+Battstat Factory,Fábrica para «Estado de la batería»
+Battery Charge Monitor,Monitor de carga de la batería
+Monitor a laptop's remaining power,Monitoriza la carga restante de un portátil
+Preferences,Preferencias
+System is running on AC power,El sistema está funcionando con CA
+System is running on battery power,El sistema está funcionando con baterías
+Battery charged (%d%%),Batería cargada al (%d%%)
+Unknown time (%d%%) remaining,"Tiempo desconocido, (%d%%) restante"
+Unknown time (%d%%) until charged,"Tiempo desconocido, (%d%%) hasta su carga"
+%d %s %d %s (%d%%) remaining,Quedan %d %s %d %s (%d%%)
+%d %s %d %s until charged (%d%%),%d %s %d %s para completar la carga (%d%%)
+Battery Monitor,Monitor de la batería
+Your battery is now fully recharged,La batería está recargada completamente
+Battery Notice,Notificación de batería
+You have %d%% of your total battery capacity remaining.,Le queda un %d%% de la capacidad total de su batería.
+"To avoid losing your work: • plug your laptop into external power, or • save open documents and shut your laptop down.","Para evitar perder su trabajo: • enchufe su portátil a una fuente de alimentación externa, o • guarde los documentos abiertos y apague el portátil."
+"To avoid losing your work: • suspend your laptop to save power, • plug your laptop into external power, or • save open documents and shut your laptop down.","Para evitar perder su trabajo: • suspenda su portátil para ahorrar energía, • conecte su portátil a una fuente de alimentación externa, o • guarde los documentos abiertos y apague el portátil."
+Your battery is running low,La batería se está agotando
+No battery present,No hay ninguna batería presente
+Battery status unknown,Estado de la batería desconocido
+There was an error displaying help: %s,Hubo un error al mostrar la ayuda: %s
+This utility shows the status of your laptop battery.,Esta utilidad muestra el estado de la batería de su portátil.
+HAL backend enabled.,Backend de HAL activado.
+Legacy (non-HAL) backend enabled.,Backend legado (No-HAL) activado.
+Battery Charge Monitor Preferences,Preferencias del monitor de carga la batería
+Appearance,Apariencia:
+Compact view,Vista compacta
+(shows single image for status and charge),(muestra una imagen única para el estado y la carga)
+Expanded view,Vista expandida
+"(two images: one for status, one for charge)","(dos imágenes: una para el estado, otra para la carga)"
+Show time/percentage:,Mostrar tiempo/porcentaje:
+Show time remaining,Mostrar el tiempo restante
+Show percentage remaining,Mostrar el porcentaje restante
+Notifications,Notificaciones
+Warn when battery charge drops to:,Avisar cuando la carga de la batería baje hasta:
+Notify when battery is fully recharged,Notificarme cuando la batería esté recargada completamente
+HAL error,Error de HAL
+Could not create libhalctx,No se pudo crear libhalctx
+No batteries found,No hay ninguna batería
+Unable to initialise HAL: %s: %s,No se pudo inicializar HAL: %s: %s
+Red value level,Nivel de valor rojo
+The battery level below which the battery is displayed as red. Also the value at which the low battery warning is displayed.,El nivel de batería por debajo del cual se muestra en rojo. También el valor en el cual se muestra la advertencia de batería baja.
+Warn on low time rather than low percentage,Avisar cuando quede poco tiempo en vez de bajo porcentaje
+Use the value defined in redvalue as a time remaining to show the warning dialog rather than a percentage.,Usar el valor definido en redvalue como el tiempo que queda para mostrar el diálogo de advertencia en vez de un porcentaje.
+Low Battery Notification,Notificación de batería baja
+Notify user when the battery is low.,Notificar al usuario cuando la batería esté baja.
+Full Battery Notification,Notificación de batería cargada
+Notify user when the battery is full.,Notificar al usuario cuando la batería esté llena.
+Beep for warnings,Pitar para las advertencias
+Beep when displaying a warning.,Pitar al mostrar una advertencia.
+Drain from top,Vaciar desde arriba
+Show the battery meter draining from the top of the battery. Only implemented for traditional battery view.,Mostrar el medidor de batería vaciándose desde la parte superior de la batería. Sólo implementado para la vista tradicional de la batería.
+Upright (small) battery,Batería vertical (pequeña)
+"Show the upright, smaller battery on the panel.","Mostrar la batería hacia arriba, más pequeña en el panel."
+Show the horizontal battery,Muestra la batería horizontal
+"Show the traditional, horizontal battery on the panel.",Mostrar la batería tradicional horizontal en el panel.
+Show the time/percent label,Muestra la etiqueta de tiempo/porcentaje
+"0 for no label, 1 for percentage and 2 for time remaining.","0 para ninguna etiqueta, 1 para porcentaje y 2 para tiempo restante.Warn when battery charge drops to: [XX] percent"
+Percent,por cientoWarn when battery charge drops to: [XX] minutes remaining
+Minutes Remaining,minutos restantes
+Battery Status Utility,Utilidad de estado de la batería
+Battery power low,Carga de la batería baja
+Battery fully re-charged,Batería recargada completamente
+Charpicker Applet Factory,Fábrica para miniaplicación selector de caracteres
+Character Palette,Paleta de caracteres
+Insert characters,Insertar caracteres
+Available palettes,Paletas disponiblesPILCROW SIGN
+"Insert ""%s""",Insertar «%s»
+Insert special character,Insertar carácter especial
+insert special character %s,insertar carácter especial %s
+Gnome Panel applet for selecting strange characters that are not on my keyboard. Released under GNU General Public Licence.,Miniaplicación del panel de GNOME para seleccionar caracteres que no están en el teclado. Distribuido bajo la Licencia Pública General GNU.
+DEPRECATED - Characters shown on applet startup,OBSOLETO - Caracteres mostrados al iniciar la miniaplicación
+Characters shown on applet startup,Caracteres mostrados al iniciar la miniaplicación
+The string that the user had selected when the applet was last used. This string will be displayed when the user starts the applet.,La cadena que el usuario había seleccionado cuando se usó la miniaplicación por última vez. Esta cadena se mostrará cuando el usuario inicie la miniaplicación.
+List of available palettes,Lista de paletas disponibles
+List of strings containing the available palettes.,Lista de cadenas que contienen las paletas disponibles.
+Edit,Editar
+Palette:,Paleta:
+Palette entry,Entrada de paleta
+Modify a palette by adding or removing characters,Modificar una paleta añadiendo o quitando caracteres
+Add Palette,Añadir paleta
+Edit Palette,Editar la paleta
+Palettes list,Lista de paletas
+Palettes:,Paletas:
+Add button,Botón «Añadir»
+Click to add a new palette,Pulse para añadir una paleta nueva
+Edit button,Botón «Editar»
+Click to edit the selected palette,Pulse para editar la paleta seleccionada
+Delete button,Botón «Borrar»
+Click to delete the selected palette,Pulse para borrar la paleta seleccionada
+Character Palette Preferences,Preferencias de la paleta de caracteres
+CPU Frequency Scaling Monitor,Monitor de frecuencia de la CPU
+Monitor the CPU Frequency Scaling,Monitoriza el escalado de frecuencia de la CPU
+CPU to Monitor,CPU que monitorizar
+Set the CPU to monitor. In a single processor system you don't have to change it.,"Establece la CPU que monitorizar. En un sistema monoprocesador, no tiene que cambiarlo."
+Mode to show cpu usage,Modo para mostrar el uso de la CPU
+"A 0 value means to show the applet in graphic mode (pixmap only), 1 to show the applet in text mode (not to show the pixmap) and 2 to show the applet in graphic and text mode.","Un valor de 0 significa mostrar la miniaplicación en modo gráfico (sólo pixmap), 1 mostrar la miniaplicación en modo texto (no mostrar el pixmap) y 2 mostrar la miniaplicación en modo gráfico y texto."
+The type of text to display (if the text is enabled).,El tipo de texto a mostrar (si el texto está activado).
+"A 0 value means to show cpu frequency, 1 to show frequency and units, and 2 to show percentage instead of frequency.","Un valor 0 significa mostrar la frecuencia de la CPU, 1 mostrar la frecuencia y las unidades y 2 mostrar un porcentaje en vez de la frecuencia."
+CPU Frequency Monitor Preferences,Preferencias del monitor de frecuencia de la CPU
+Monitor Settings,Configuración del monitor
+Monitored CPU:,CPU monitorizada:
+Display Settings,Configuración del visor
+Appearance:,Apariencia:
+Show CPU frequency as frequency,Mostrar la frecuencia de la CPU como frecuencia
+Show frequency units,Mostrar las unidades de la frecuencia
+Show CPU frequency as percentage,Mostrar la frecuencia de la CPU como porcentaje
+Could not open help document,No se pudo abrir el documento de ayuda
+This utility shows the current CPU Frequency Scaling.,Esta utilidad muestra el estado actual del escalado de frecuencia de la CPU.
+This utility shows the current CPU Frequency,Esta utilidad muestra la frecuencia actual de la CPU
+Graphic,Gráfico
+Text,Texto
+Graphic and Text,Gráfico y texto
+Frequency Scaling Unsupported,Sin soporte para escalado de frecuencia
+CPU frequency scaling unsupported,Escalado de frecuencia de la CPU no soportado
+You will not be able to modify the frequency of your machine. Your machine may be misconfigured or not have hardware support for CPU frequency scaling.,No podrá modificar la frecuencia de su máquina. Su máquina puede estar mal configurada o no tener soporte hardware para el escalado de frecuencia de la CPU.
+Change CPU Frequency scaling,Cambiar la frecuencia de escalado de la CPU
+Privileges are required to change the CPU Frequency scaling.,Se necesitan privilegios para cambiar la frecuencia de escalado de la CPU
+Drive Mount Applet Factory,Fábrica de la miniaplicación montador de discos
+Factory for drive mount applet,Fábrica para la miniaplicación montador de discos
+Disk Mounter,Montador de discos
+Mount local disks and devices,Monta dispositivos y discos locales
+(mounted),(montado)
+(not mounted),(desmontado)
+Cannot execute '%s',No se puede ejecutar «%s»
+Play DVD,Reproducir DVD
+Play CD,Reproducir CD
+Open %s,Abrir %s
+Unmount %s,Desmontar %s
+Mount %s,Montar %s
+Eject %s,Expulsar %s
+Applet for mounting and unmounting block volumes.,Miniaplicación para montar y desmontar volúmenes de bloques.
+Interval timeout to check mount point status,Intervalo del tiempo de espera para comprobar el estado de los puntos de montaje
+Time in seconds between status updates,Tiempo en segundos entre las actualizaciones del estado
+Geyes Applet Factory,Fábrica de la miniaplicación Geyes
+Eyes,Ojos
+A set of eyeballs for your panel,Un conjunto de globos oculares para su panel
+A goofy set of eyes for the GNOME panel. They follow your mouse.,Un juego de ojos para el panel de GNOME. Siguen el movimiento del ratón.
+The eyes look in the direction of the mouse pointer,Los ojos miran en la dirección del puntero del ratón
+Directory in which the theme is located,Directorio en el cual se encuentra situado el tema
+Can not launch the eyes applet.,No se puede lanzar la miniaplicación Geyes.
+There was a fatal error while trying to load the theme.,Hubo un error fatal al intentar cargar el tema.
+Geyes Preferences,Preferencias de Geyes
+Themes,Temas
+Select a theme:,Seleccione un tema:
+Generic Keyboard,Teclado genérico
+Arabic keymap,Mapa de teclado árabe
+Armenian,Armenio
+Basque,Vasco
+Belgian,Belga
+Bulgarian keymap,Mapa de teclado búlgaro
+Brazil Portuguese keymap,Mapa de teclado portugués brasileño
+Bulgarian Cyrillic,Búlgaro cirílico
+Swiss keymap,Mapa de teclado suizo
+Czech keymap,Mapa de teclado checo
+German keymap,Mapa de teclado alemán
+Danish keymap,Mapa de teclado danés
+Estonian keymap,Mapa de teclado estonio
+Spanish keymap,Mapa de teclado español
+Finnish keymap,Mapa de teclado finlandés
+French Swiss,Suizo francés
+French-Canadian 105-key,Mapa de teclado francés-canadiense 105 teclas
+French Swiss keymap,Mapa de teclado suizo francés
+French keymap,Mapa de teclado francés
+GB 102-key,GB 102 teclas
+English keymap,Mapa de teclado inglés
+GB 105-key,GB 105 teclas
+Georgian keymap,Mapa de teclado georgiano
+Georgian Latin,Georgiano latino
+Georgian Russian layout,Distribución georgiano rusa
+German,Alemán
+German Swiss with Euro,Alemán suizo con Euro
+Greek keymap,Mapa de teclado griego
+Hungarian 101-key latin 1,Húngaro 101 teclas latino 1
+Hungarian latin1,Húngaro latino 1
+Hungarian 101-key latin 2,Húngaro 101 teclas latino 2
+Hungarian 105-key latin 2,Húngaro 105 teclas latino 2
+Hungarian 105-key latin 1,Húngaro 105 teclas latino 1
+Sun (!not PC!) type5 Hungarian latin 2,Sun (no PC) húngaro Tipo5 latino 2
+Hungarian PC/AT 101 keyboard,Teclado húngaro PC/AT 101
+Hebrew keymap,Mapa de teclado hebreo
+Icelandic keymap,Mapa de teclado islandés
+Italian keymap,Mapa de teclado italiano
+Japanese keymap,Mapa de teclado japonés
+Lao keymap,Mapa de teclado laosiano
+Lithuanian keymap,Mapa de teclado lituano
+Macedonian,Macedonio
+Dutch keymap,Mapa de teclado holandés
+Norwegian,Noruego
+Polish deadkeys,Teclas muertas del polaco
+Polish,Polaco
+Portugal Deadkeys,Teclas muertas portugués
+Portugal,Portugal
+Portuguese keymap,Mapa de teclado portugués
+Russian keymap,Mapa de teclado ruso
+Plain Russian keymap,Mapa de teclado ruso plano
+Russian Cyrillic,Ruso cirílico
+Swedish keymap,Mapa de teclado sueco
+Slovenian keymap,Mapa de teclado esloveno
+Slovak keymap,Mapa de teclado eslovaco
+Slovenian,Esloveno
+Swedish,Sueco
+Thai,Tailandés
+Thai Kedmanee,Tailandés Kedmanee
+Thai keymap,Mapa de teclado tailandés
+"Turkish ""F"" keyboard",Teclado turco «F»
+"Turkish ""Q"" keyboard",Teclado turco «Q»
+Turkish keymap,Mapa de teclado turco
+UK 105-key,Mapa de teclado Reino Unido 105-teclas
+UK PC/AT keyboard,Reino Unido PC/AT
+US PC/AT 101 keyboard,Estadounidense PC/AT 101
+US 101-key keyboard,Estadounidense de 101 teclas
+US 84-key,Estadounidense de 84 teclas
+US DEC 450,Estadounidense DEC 450
+US IBM RS/6000,Estadounidense IBM RS/6000
+US International,Estadounidense internacional
+US 105-key keyboard (with windows keys),Estadounidense de 105 teclas (con teclas Windows)
+US Macintosh,Estadounidense Macintosh
+US Silicon Graphics 101-key,Estadounidense Silicon Graphics 101-teclas
+US Sun type5,Estadounidense Sun tipo 5
+Serbian keymap,Mapa de teclado servio
+Mongolian alt keymap,Mapa de teclado mongol alt
+Mongolian phonetic keymap,Mapa de teclado mongol fonético
+Mongolian keymap,Mapa de teclado mongol
+Layout shift behavior,Comportamiento del cambio de distribución
+Right Alt key changes layout.,La tecla Alt derecha cambia la distribución.
+Left Alt key changes layout.,La tecla Alt izquierda cambia la distribución.
+CapsLock key changes layout.,La tecla Bloq Mayús. cambia la distribución.
+Shift+CapsLock changes layout.,Mayús+Bloq Mayús cambia la distribución.
+Both Shift keys together change layout.,Ambas teclas Mayús. juntas cambian la distribución.
+Both Alt keys together change layout.,Ambas teclas Alt juntas cambian la distribución.
+Both Ctrl keys together change layout.,Ambas teclas Ctrl juntas cambian la distribución.
+Control+Shift changes layout.,Control+Mayús. cambia la distribución.
+Alt+Control changes layout.,Alt+Control cambia la distribución.
+Alt+Shift changes layout.,Alt+Mayús. cambia la distribución.
+Menu key changes layout.,La tecla Menú cambia la distribución.
+Left Win-key changes layout.,La tecla Win izquierda cambia la distribución.
+Right Win-key changes layout.,La tecla Win derecha cambia la distribución.
+Left Shift key changes group.,La tecla Mayús izquierda cambia el grupo.
+Right Shift key changes group.,La tecla Mayús derecha cambia el grupo.
+Left Ctrl key changes group.,La tecla Ctrl izquierda cambia el grupo.
+Right Ctrl key changes group.,La tecla Ctrl derecha cambia el grupo.
+Armenian Sun keymap,Mapa de teclado armenio de Sun
+Azerbaijani Turkish Sun keymap,Mapa de teclado turco azerbaijaní de Sun
+Dutch Sun keymap,Mapa del teclado holandés de Sun
+Bulgarian Sun keymap,Mapa de teclado búlgaro de Sun
+Brazil Portuguese Sun USB keymap,Mapa de teclado portugués brasileño USB de Sun
+Brazil Portuguese Sun keymap,Mapa de teclado portugués brasileño de Sun
+Belarusian Sun keymap,Mapa de teclado bielorruso de Sun
+Canadian Sun keymap,Mapa de teclado canadiense de Sun
+Swiss German Sun keymap,Mapa de teclado suizo alemán de Sun
+Czech Sun keymap,Mapa de teclado checo de Sun
+German Sun Type-4 keymap,Mapa de teclado alemán Type 4 de Sun
+German Sun USB keymap,Mapa de teclado alemán USB de Sun
+German Sun keymap,Mapa de teclado alemán de Sun
+Danish Sun Type-4 keymap,Mapa de teclado danés Type 4 de Sun
+Danish Sun USB keymap,Mapa de teclado danés USB
+Danish Sun keymap,Mapa de teclado danés de Sun
+Estonian Sun keymap,Mapa de teclado estonio de Sun
+Spanish Sun Type-4 keymap,Mapa de teclado español Type 4 de Sun
+Spanish Sun USB keymap,Mapa de teclado español USB de Sun
+Spanish Sun keymap,Mapa de teclado español de Sun
+Finnish Sun keymap,Mapa de teclado finlandés de Sun
+French Sun USB keymap,Mapa de teclado francés USB de Sun
+French Sun keymap,Mapa de teclado francés de Sun
+British Sun Type-4 keymap,Mapa de teclado británico Type 4 de Sun
+British Sun USB keymap,Mapa de teclado británico USB Sun
+British Sun keymap,Mapa de teclado británico de Sun
+Hungarian latin2 Sun keymap,Mapa de teclado húngaro latino2 de Sun
+Hungarian type5 latin 1 keymap,Mapa de teclado húngaro Type 5 latino1
+Hebrew Sun keymap,Mapa de teclado hebreo de Sun
+Icelandic Sun keymap,Mapa de teclado islandés de Sun
+Italian Sun Type-4 keymap,Mapa de teclado Type-4 de Sun
+Italian Sun USB keymap,Mapa de teclado italiano USB de Sun
+Italian Sun keymap,Mapa de teclado italiano de Sun
+Japanese Sun Type-4 keymap,Mapa de teclado japonés Type-4 de Sun
+Japanese Sun keymap,Mapa de teclado japonés de Sun
+Lithuanian Sun keymap,Mapa de teclado lituano de Sun
+Latvian Sun keymap,Mapa de teclado letón de Sun
+Macedonian Sun keymap,Mapa de teclado macedonio de Sun
+Norwegian Sun keymap,Mapa de teclado noruego de Sun
+Polish Sun keymap,Mapa de teclado polaco de Sun
+Portuguese Sun Type-4 keymap,Mapa de teclado portugués Type 4 de Sun
+Portuguese Sun keymap,Mapa de teclado portugués de Sun
+Romanian Sun keymap,Mapa de teclado rumano de Sun
+Russian Sun keymap,Mapa de teclado ruso de Sun
+Swedish Sun Type-4 keymap,Mapa de teclado sueco Type 4 de Sun
+Swedish Sun USB keymap,Mapa de teclado sueco USB de Sun
+Swedish Sun keymap,Mapa de teclado sueco de Sun
+Slovenian Sun keymap,Mapa de teclado esloveno de Sun
+Slovak Sun keymap,Mapa de teclado eslovaco de Sun
+Serbian Sun standard keymap,Mapa de teclado servio estándar de Sun
+Thai Sun keymap,Mapa de teclado tailandés de Sun
+Turkish Sun keymap,Mapa de teclado turco de Sun
+Ukrainian Sun keymap,Mapa de teclado ucraniano de Sun
+US Sun type5 keymap,Mapa de teclado estadounidense Tipo 5 de Sun
+US Sun Type-4 keymap,Mapa de teclado estadounidense Tipo4 de Sun
+US Sun USB keymap,Mapa de teclado estadounidense USB de Sun
+Vietnamese Sun keymap,Mapa de teclado vietnamita de Sun
+Groups,Grupos
+Keyboard Preferences,Preferencias del teclado
+Show Current Layout,Mostrar distribución actual
+Plugins,Complementos
+Keyboard applet factory,Fábrica de la miniaplicación del teclado
+Keyboard Indicator,Indicador del teclado
+Keyboard layout indicator,Indicador de distribución del teclado
+Unknown,Desconocido
+"Keyboard Layout ""%s""",Distribución del teclado «%s»
+Copyright (c) Sergey V. Udaltsov 1999-2004,Copyright © Sergey V. Udaltsov 1999-2004
+Keyboard layout indicator applet for GNOME,Indicador de la distribución del teclado para GNOME
+Keyboard Indicator (%s),Indicador del teclado (%s)
+Keyboard Layout,Distribución del teclado
+Details,Detalles
+Update,Actualizar
+Gweather Applet Factory,Fábrica de la miniaplicación GWeather
+Factory for creating the weather applet.,Fábrica para crear la miniaplicación de meteorología.
+Weather Report,Informe meteorológico
+"Monitor the current weather conditions, and forecasts",Monitoriza la condiciones meteorológicas actuales y los pronósticos
+© 1999-2005 by S. Papadimitriou and others,Copyright © 1999-2005 por S. Papadimitriou y otros
+A panel application for monitoring local weather conditions.,Una aplicación del panel para monitorizar la meteorología local.
+GNOME Weather,Meteorología de GNOME
+Weather Forecast,Previsión meteorológica
+City: %s Sky: %s Temperature: %s,Ciudad: %s Cielo: %s Temperatura: %s
+Updating...,Actualizando…
+City:,Ciudad:
+Last update:,Última actualización:
+Conditions:,Condiciones:
+Sky:,Cielo:
+Temperature:,Temperatura:
+Feels like:,Sensación térmica:
+Dew point:,Punto de condensación:
+Relative humidity:,Humedad relativa:
+Wind:,Viento:
+Pressure:,Presión atmosférica:
+Visibility:,Visibilidad:
+Sunrise:,Amanecer:
+Sunset:,Ocaso:
+Current Conditions,Condiciones actuales
+Forecast Report,Informe del pronóstico
+See the ForeCast Details,Ver los detalles del pronóstico
+Forecast,Pronóstico
+Radar Map,Mapa de radar
+Visit Weather.com,Visitar weather.com
+Click to Enter Weather.com,Pulse para entrar en Weather.com
+Forecast not currently available for this location.,Pronóstico no disponible actualmente para este lugar.
+Location view,Vista de la zona
+Select Location from the list,Seleccione una zona de la lista
+Update spin button,Botón de intervalo de actualización
+Spinbutton for updating,Botón para la actualizar
+Address Entry,Dirección
+Enter the URL,Introduzca el URL
+Failed to load the Locations XML database. Please report this as a bug.,Falló al cargar la base de datos XML de zonas. Informe de esto como un fallo.
+Weather Preferences,Preferencias de meteorología
+Automatically update every:,Actualizar automáticamente cada:
+Temperature unit:,Unidad de temperatura:
+Default,Predeterminado
+Kelvin,Kelvin
+Celsius,Centígrados
+Fahrenheit,Fahrenheit
+Wind speed unit:,Unidad de velocidad del viento:meters per second
+m/s,m/skilometers per hour
+km/h,Km/hmiles per hour
+mph,mphknots
+knots,nudos
+Beaufort scale,Escala Beaufort
+Pressure unit:,Unidad de presión atmosférica:kiloPascals
+kPa,kPahectoPascals
+hPa,hPamillibars
+mb,mbmillibars of mercury
+mmHg,mmHginches of mercury
+inHg,inHgatmospheres
+Visibility unit:,Unidad de visibilidad:meters
+meters,metroskilometers
+km,Kmmiles
+miles,millas
+Enable radar map,Activar el mapa de radar
+Use custom address for radar map,Usar dirección personalizada para el mapa de radar
+Address:,Direcciones:
+minutes,minutos
+Display,Visor
+General,General
+Select a location:,Seleccione una zona:
+Find:,Buscar:
+Find Next,Buscar siguiente
+Location,Zona
+Invest,Inversiones
+Track your invested money.,Seguimiento de inversiones.
+Refresh,Refrescar
+Financial Chart,Gráfica financiera
+Ticker symbol:,Símbolo del ticker:
+Auto refresh,Autorefrescar
+Graph style:,Estilo de la gráfica:
+Moving average:,Movimiento promedio:
+Exponential moving average:,Media de movimiento exponencial:
+Overlays:,Overlays:
+Bollinger,Bollinger
+Splits,Splits
+Volumes,Volúmenes
+Indicators:,Indicadores:
+Slow stoch,Slow stoch
+Vol+MA,Vol+MA
+Fast stoch,Fast stoch
+MACD,MACD
+Options,Opciones
+Downloading chart from Yahoo!,Descargando gráfica desde Yahoo!
+Invest Preferences,Preferencias de Invest
+label,etiqueta
+Stocks,Cotizaciones
+Note: Quotes are delayed at least 15 minutes. Source: Yahoo!,Nota: Las cotizaciones están retrasadas al menos 15 minutos. Fuentes: Yahoo!
+You have not entered any stock information yet,Aún no ha introducido ninguna información de acciones
+No stock quotes are currently available,Actualmente no hay disponible ninguna cotización de acciones
+The server could not be contacted. The computer is either offline or the servers are down. Try again later.,No se pudo contactar con el servidor. El equipo está apagado o los servidores están caídos. Pruebe de nuevo más tarde.
+Financial Chart - %s,Gráfica financiera - %s
+Opening Chart,Abriendo gráfica
+Chart downloaded,Gráfica descargada
+Chart could not be downloaded,No se pudo descargar la gráfica
+Invest Applet,Miniaplicación de inversiones
+Symbol,Símbolo
+Label,etiqueta
+Amount,Cantidad
+Price,Precio
+Commission,Comisión
+Invest could not connect to Yahoo! Finance,Inversiones no pudo conectar con Yahoo! Finance
+Updated at %s,Actualizado el %s
+Quotes average change %%: %+.2f%%,Cambio promedio de las acciones %%: %+.2f%%
+Positions balance: %+.2f,Balance de las posiciones: %+.2flast price
+Ticker,Indicador
+Last,Último
+Change %,Cambio %
+Chart,Gráfica
+Gain,Ganancia
+Gain %,Ganancia %
+Deskbar (formerly Mini-Commander),Deskbar (anterior Mini-Commander)
+Deskbar (transparent upgrade from Mini-Commander),Barra de escritorio (actualización transparente de Mini-Commander)
+MiniCommander Applet Factory,Fábrica de la miniaplicación Mini-Commander
+Command Line,Línea de comandos
+Mini-Commander,Mini-Commander
+"This GNOME applet adds a command line to the panel. It features command completion, command history, and changeable macros.","Esta miniaplicación de GNOME añade una línea de comandos al panel. Tiene completado de comandos, histórico de comandos, y macros cambiables."
+No items in history,Histórico vacío
+Start program,Lanzar el programa
+Command line,Línea de comandos
+Type a command here and Gnome will execute it for you,Escriba un comando aquí y GNOME lo ejecutará por usted
+Cannot get schema for %s: %s,No se puede obtener el esquema para %s: %s
+Cannot set schema for %s: %s,No se puede establecer el esquema para %s: %s
+Set default list value for %s,Establecer el valor predeterminado de lista para %s
+"GCONFDISABLEMAKEFILESCHEMAINSTALL is set, not installing schemas","GCONFDISABLEMAKEFILESCHEMAINSTALL está activado, no se están instalando esquemas"
+Must set the GCONFCONFIGSOURCE environment variable,Debe asignar la variable de entorno GCONFCONFIGSOURCE
+Failed to access configuration source(s): %s,Falló al acceder a las fuentes de configuración: %s
+Error syncing config data: %s,Error al sincronizar los datos de configuración: %s
+Macro pattern list,Lista de patrones de macro
+List of GConfValue entries containing strings for the macro patterns.,Lista de entradas de GConfValue que contienen cadenas para los patrones de macro.
+Macro command list,Lista de comandos de macro
+List of GConfValue entries containing strings for the macro commands.,Lista de entradas de GConfValue que contienen cadenas para los comandos de macro.
+Command Line Preferences,Preferencias de línea de comandos
+Auto Completion,Autocompletado
+Enable history-based auto completion,Activar autocompletado basado en histórico
+Width:,Anchura:
+pixels,píxeles
+Colors,Colores
+Use default theme colors,Usar los colores predeterminados del tema
+Command line foreground:,Color de la tipografía:
+Command line background:,Color del fondo:
+Pick a color,Escoja un color
+Macros:,Macros:
+Add Macro...,Añadir macro…
+Delete Macro,Borrar macro
+Macros,Macros
+Add New Macro,Añadir una macro nueva
+Pattern:,Patrón:
+Command:,Comando:
+Show handle,Mostrar el tirador
+Show a handle so the applet can be detached from the panel.,Mostrar un tirador para que la miniaplicación pueda desprenderse del panel.
+Show frame,Mostrar el marco
+Show a frame surrounding the applet.,Mostrar un marco alrededor de la miniaplicación.
+Perform history autocompletion,Realizar autocompletado mediante histórico
+Attempt to autocomplete a command from the history of commands entered.,Intenta autocompletar un comando desde el historial de comandos introducidos.
+Width,Anchura
+Width of the applet,Anchura de la miniaplicación
+Not used anymore,Ya no se utiliza
+Use the default theme colors,Usar los colores del tema predeterminado
+Use theme colors instead of custom ones.,Usa los colores del tema en lugar de los personalizados.
+"Foreground color, red component","Color de tipografía, componente rojo"
+The red component of the foreground color.,El componente rojo del color de frente.
+"Foreground color, green component","Color de tipografía, componente verde"
+The green component of the foreground color.,El componente verde del color de frente.
+"Foreground color, blue component","Color de tipografía, componente azul"
+The blue component of the foreground color.,El componente azul del color de frente.
+"Background color, red component","Color del fondo, componente roja"
+The red component of the background color.,El componente rojo del color de fondo.
+"Background color, green component","Color del fondo, componente verde"
+The green component of the background color.,El componente verde del color de fondo.
+"Background color, blue component","Color del fondo, componente azul"
+The blue component of the background color.,El componente azul del color de fondo.
+History list,Lista del histórico
+List of GConfValue entries containing strings for history entries.,Lista de entradas de GConfValue que contienen cadenas para las entradas históricas.
+"This per-applet key is deprecated in favour of the global key, /schemas/apps/mini-commander-global/macropatterns.","Esta clave por miniaplicación se ha declarado obsoleta en favor de la clave global, /schemas/apps/mini-commander-global/macropatterns."
+Browser,Navegador
+Click this button to start the browser,Pulse sobre este botón para iniciar el navegador
+History,Histórico
+Click this button for the list of previous commands,Pulse sobre este botón para la lista de comandos anteriores
+Command line has been disabled by your system administrator,La línea de comandos ha sido desactivada por su administrador del sistema
+Mini-Commander applet,Miniaplicación Mini-Commander
+This applet adds a command line to the panel,Esta miniaplicación añade una línea de comandos al panel
+You must specify a pattern,Debe especificar un patrón
+You must specify a pattern and a command,Debe especificar un patrón y un comando
+You must specify a command,Debe especificar un comando
+You may not specify duplicate patterns,No puede especificar patrones duplicados
+Pattern,Patrón
+Command,Comando
+Volume Control,Control de volumen
+Adjust the sound volume,Ajusta el volumen del sonido
+Mute,Silenciar
+Open Volume Control,Abrir el control de volumen
+Volume Applet,Miniaplicación del volumen
+"The volume control did not find any elements and/or devices to control. This means either that you don't have the right GStreamer plugins installed, or that you don't have a sound card configured.",El control de volumen no encontró ningún elemento y/o dispositivo que controlar. Esto significa que no tiene los complementos correctos de GStreamer instalados o que no tiene una tarjeta de sonido configurada.
+"You can remove the volume control from the panel by right-clicking the speaker icon on the panel and selecting ""Remove From Panel"" from the menu.",Puede quitar el control de volumen del panel pulsando con el botón derecho sobre el icono del altavoz en el panel y seleccionando «Quitar del panel» del menú.
+Failed to start Volume Control: %s,Falló al iniciar el control de volumen: %s
+%s: muted,%s: silenciado
+%s: %d%%,%s: %d%%
+Failed to display help: %s,Falló al mostrar la ayuda: %s
+Volume control for your GNOME Panel.,Control de volumen para su panel de GNOME.
+Using GStreamer 0.10.,Usando GStreamer 0.10.
+Volume Control...,Control de volumen...
+Unknown Volume Control %d,Control de volumen desconocido %d
+Channel controlled by applet. Only for OSS setups,Canal controlado por la miniaplicación. Sólo para configuraciones de OSS
+Saved mute state,Estado de silencio guardado
+Saved volume to restore on startup,Volumen guardado para restaurar durante el inicio
+Volume Control Preferences,Preferencias del Control de volumen
+Select the device and track to control.,Seleccione el dispositivo y pista para controlar.
+Modem Monitor,Monitor del módem
+Activate and monitor a dial-up network connection,Activar y monitorizar una conexión de marcado telefónico
+Activate,Activar
+Deactivate,Desactivar
+Properties,Propiedades
+"Connection active, but could not get connection time","Conexión activa, pero no se pudo obtener el tiempo de conexión"
+Time connected: %.1d:%.2d,Tiempo conectado: %.1d:%.2d
+Not connected,Desconectado
+"To connect to your Internet service provider, you need administrator privileges","Para conectarse a su proveedor de servicios de Internet, necesita privilegios de administrador"
+"To disconnect from your Internet service provider, you need administrator privileges","Para desconectarse de su proveedor de servicios de Internet, necesita privilegios de administrador"
+The entered password is invalid,La contraseña introducida no es válida
+"Check that you have typed it correctly and that you haven't activated the ""caps lock"" key",Comprueba que la ha tecleado correctamente y que no ha activado la tecla «Bloq. Mayús.»
+Do you want to connect?,¿Desea conectarse?
+Do you want to disconnect?,¿Desea desconectarse?
+Connect,Conectar
+Disconnect,Desconectar
+Could not launch network configuration tool,No se pudo lanzar la herramienta de configuración de red
+Check that it's installed in the correct path and that it has the correct permissions,Comprueba que está instalado en la ruta correcta y que tienen los permisos correctos
+Applet for activating and monitoring a dial-up network connection.,Miniaplicación para activar y monitorizar una conexión de red de marcado telefónico.
+Enter password,Introduzca la contraseña
+Password:,Contraseña:
+Connecting with Internet Service Provider,Conectando con el proveedor de servicios de Internet
+System Monitor,Monitor del sistema
+A system load indicator,Un indicador de carga del sistema
+Open System Monitor,Abrir el monitor del sistema
+"A system load monitor capable of displaying graphs for CPU, ram, and swap space use, plus network traffic.","Un monitor de carga del sistema capaz de mostrar gráficos para la CPU, RAM y del uso del espacio intercambio, además del tráfico de red."
+There was an error executing '%s': %s,Ha ocurrido un error al ejecutar «%s» : %s
+Processor,Procesador
+Memory,Memoria
+Network,Red
+Swap Space,Espacio de intercambio
+Load Average,Carga media
+Disk,Disco
+%s: %u%% in use by programs %u%% in use as cache,%s: %u%% en uso por programas %u%% en uso como caché
+The system load average is %0.02f,La carga media del sistema es del %0.02f
+%s: Receiving %s Sending %s,%s: Recibiendo %s Enviando %s
+CPU Load,Carga CPU
+Memory Load,Carga de memoria
+Net Load,Carga de red
+Swap Load,Carga del intercambio
+Disk Load,Carga del disco
+Enable CPU load graph,Activar el gráfico de carga de CPU
+Enable memory load graph,Activar el gráfico de carga de memoria
+Enable network load graph,Activar el gráfico de carga de la red
+Enable swap load graph,Activar el gráfico de carga de intercambio
+Enable load average graph,Activar el gráfico de promedio de carga
+Enable disk load graph,Activar el gráfico de carga de disco
+Applet refresh rate in milliseconds,Tasa de refresco de la miniaplicación en milisegundos
+Graph size,Tamaño del gráfico
+"For horizontal panels, the width of the graphs in pixels. For vertical panels, this is the height of the graphs.","Para los paneles horizontales, el ancho de los gráficos en píxeles, para los paneles verticales, esto es la altura de los gráficos."
+Graph color for user-related CPU activity,El color del gráfico para la actividad de la CPU relacionada con el usuario
+Graph color for system-related CPU activity,El color del gráfico para la actividad de la CPU relacionada con el sistema
+Graph color for nice-related CPU activity,El color del gráfico para la actividad de la CPU relacionada con la prioridad
+Graph color for iowait related CPU activity,El color del gráfico para la espera de E/S relacionada con la actividad de la CPU
+CPU graph background color,Color de fondo del gráfico de carga de CPU
+Graph color for user-related memory usage,El color del gráfico para el uso de memoria relacionado con el usuario
+Graph color for shared memory,El color del gráfico para la memoria compartida
+Graph color for buffer memory,El color del gráfico para la memoria del búfer
+Graph color for cached memory,El color del gráfico para la memoria caché
+Memory graph background color,Color de fondo del gráfico de uso de memoria
+Graph color for input network activity,El color del gráfico para la actividad de entrada la red
+Graph color for output network activity,El color del gráfico para la actividad de salida de la red
+Graph color for loopback network usage,El color del gráfico para el uso local de la red
+Network graph background color,Color de fondo del gráfico de red
+Graph color for user-related swap usage,El color del gráfico para el uso de intercambio relativo al usuario
+Swap graph background color,Color de fondo del gráfico del espacio de intercambio
+Graph color for load average,El color del gráfico para el promedio de carga
+Load graph background color,Color de fondo del gráfico de carga del sistema
+Graph color for disk read,El color del gráfico para las lecturas de disco
+Graph color for disk write,El color del gráfico para las escrituras de disco
+Background color for disk load graph,Color del fondo para el gráfico de carga de disco
+The desktop description file to execute as the system monitor,El archivo de descripción del escritorio que ejecutar como el monitor del sistema
+%s/s,%s/s
+Monitored Resources,Recursos monitorizados
+Load,Carga
+Harddisk,Disco duro
+System monitor width:,Anchura del monitor del sistema:
+System monitor height:,Altura del monitor del sistema:
+System monitor update interval:,Intervalo de actualización del monitor del sistema:
+milliseconds,milisegundos
+User,Usuario
+System,Sistema
+Nice,Prioridad
+IOWait,Espera E/S
+Idle,Ocioso
+Shared,Compartida
+Buffers,Búferes
+Cached,Cacheada
+Free,Libre
+In,Entrada
+Out,Salida
+Local,Local
+Background,Fondo
+Used,Usado
+Average,Media
+Read,Lectura
+Write,Escritura
+System Monitor Preferences,Preferencias del monitor del sistema
+CD Player (Deprecated),Reproductor de CD (obsoleto)
+Panel applet for playing audio CDs,Miniaplicación del panel para reproducir CDs de sonido
+Inbox Monitor (Deprecated),Monitor de bandeja de entrada (obsoleto)
+Alert you when new mail arrives,Avisarme cuando llegue correo nuevo
+Volume Control (Deprecated),Control de volumen (obsoleto)
+Null Applet Factory,Fábrica de miniaplicaciones nulas
+Factory for deprecating applets,Fábrica para convertir miniaplicaciones en obsoletas
+Wireless Link Monitor,Monitor de enlace inalámbrico
+Monitor the quality of a wireless network link,Monitoriza la calidad de un enlace de red inalámbrico
+Inbox Monitor,Monitor de la bandeja de entrada
+CD Player,Reproductor de CD
+Some panel items are no longer available,Algunos elementos del panel no estarán disponibles a partir de ahora
+One or more panel items (also referred to as applets) are no longer available in the GNOME desktop.,Uno o más elementos del panel (también llamados miniaplicaciones) no están ya disponibles en el escritorio GNOME.
+These items will now be removed from your configuration:,Estos elementos se quitarán de su configuración:
+You will not receive this message again.,No recibirá este mensaje de nuevo.
+Tomboy (ne Stickynotes),Tomboy (antes Notas adhesivas)
+Tomboy (transparent upgrade from stickynotes),Tomboy (actualización transparente de notas adhesivas)
+Sticky Notes Applet Factory,Fábrica miniaplicación de Notas adhesivas
+Sticky Notes,Notas adhesivas
+"Create, view, and manage sticky notes on the desktop","Crea, muestra y administra notas adhesivas en el escritorio"
+New Note,Nota nueva
+Hide Notes,Ocultar notas
+Lock Notes,Bloquear las notas
+Delete Notes,Borrar las notas
+This note is locked.,Esta nota está bloqueada.
+This note is unlocked.,Esta nota está desbloqueada.
+Sticky Notes Preferences,Preferencias de las notas adhesivas
+Default Note Properties,Propiedades predeterminadas de la nota
+Choose a font to use for all sticky notes,Seleccione una tipografía para usar en todas las notas adhesivas
+Pick a default sticky note font,Seleccione una tipografía predeterminada para la nota adhesiva
+Font:,Tipografía:
+Use font from the system theme,Usar la tipografía del tema del sistema
+Note Color:,Color de la nota:
+Font Color:,Color de la tipografía:
+Choose a base color to use for all sticky notes,Seleccione un color base para usar con todas las notas adhesivas
+Pick a default sticky note color,Seleccione un color predeterminado para la nota adhesiva
+Use color from the system theme,Usar el color del tema del sistema
+Specify the default height (in pixels) of new notes,Especifica la altura predeterminada (en píxeles) de las notas nuevas
+Specify the default width (in pixels) of new notes,Especifica la anchura predeterminada (en píxeles) de las notas nuevas
+Height:,Altura:
+Behavior,Comportamiento
+Force default color and font on notes,Forzar los colores y tipografías predeterminados en las notas
+Choose if the default style is forced on all notes,Seleccione si se debe forzar el estilo predeterminado en todas las notas
+Put notes on all workspaces,Colocar las notas en todas las áreas de trabajo
+Choose if notes are visible on all workspaces,Elija si las notas serán visibles en todas las áreas de trabajo
+Delete this sticky note?,Mostrar notas adhesivas
+This cannot be undone.,Esta nota está desbloqueada.
+Delete all sticky notes?,Mostrar notas adhesivas
+Delete All,Borrar todas
+Sticky Note,Nota adhesiva
+Lock/Unlock note,Bloquear/Desbloquear la nota
+Close note,Cerrar nota
+Resize note,Redimensionar la nota
+Sticky Note Properties,Propiedades de la nota adhesiva
+Choose a font for the note,Seleccione una tipografía para la nota
+Pick a font for the sticky note,Seleccione una tipografía para la nota adhesiva
+Use default font,Usar la tipografía predeterminada
+Choose a color for the note,Seleccione un color para la nota
+Pick a color for the sticky note,Seleccione un color para la nota adhesiva
+Use default color,Usar el color predeterminado
+Specify a title for the note,Especifique un título para la nota
+Title:,Título:
+Default width for new notes,Anchura predeterminado para las notas nuevas
+Default width for new sticky notes in pixels.,Anchura predeterminado en píxeles para las notas adhesivas nuevas.
+Default height for new notes,Altura predeterminada para las notas nuevas
+Default height for new sticky notes in pixels.,Altura predeterminada en píxeles para las notas adhesivas nuevas.
+Default color for new notes,Color de predeterminado para las notas nuevas
+"Default color for new sticky notes. This should be in html hex specification, for example ""#30FF50"".","Color predeterminado para las notas adhesivas nuevas. Este podría estar en especificación hexadecimal html, por ejemplo «#30FF50»."
+Default color for font,Color de predeterminado para la tipografía
+"Default font color for new sticky notes. This should be in html hex specification, for example ""#000000"".","Color predeterminado para la tipografía de las notas adhesivas nuevas. Este podría estar en especificación hexadecimal html, por ejemplo «#000000»."
+Default font for new notes,Tipografía predeterminada para las notas nuevas
+"Default font for new sticky notes. This should be a Pango Font Name, for example ""Sans Italic 10"".","Tipografía predeterminada para las notas adhesivas nuevas. Esto debería ser un nombre de tipografía Pango, por ejemplo «Sans Italic 10»."
+Sticky notes' workspace stickyness,Adherencia del área de trabajo de las notas adhesivas
+"Specifies whether the sticky notes are visible on ALL workspaces on the desktop, or not.","Especifica si las notas adhesivas son visibles en TODAS las áreas de trabajo del escritorio, o no."
+Sticky notes' locked state,Estado de bloqueo de las notas adhesivas
+Specifies whether the sticky notes are locked (non-editable) or not.,Especifica si las notas adhesivas están bloqueadas (no editables) o no.
+Date format of note's title,Formato de fecha del título de la nota
+"By default, sticky notes are given the current date as the title when they are created. This format is used; anything that can be parsed by strftime() is valid.","Por omisión, las notas adhesivas utilizan la fecha actual como título al crearse. Este es el formato utilizado. Cualquier formato que pueda ser analizado por strftime() es válido."
+Whether to use the default system color,Define si se debe utilizar el color predeterminado del sistema
+"If this option is disabled, a custom color can be used as the default color for all sticky notes.",Si esta opción esta deshabilitada se puede utilizar una color personalizado como el color predeterminado para todas las notas adhesivas.
+Whether to use the default system font,Define si se debe utilizar la tipografía predeterminada del sistema
+"If this option is disabled, a custom font can be used as the default font for all sticky notes.","Si esta opción está deshabilitada, se puede utilizar una tipografía personalizada como tipografía predeterminada para todas las notas adhesivas."
+Whether to force the default color and font on all notes,Define si se debe forzar el uso del color y la tipografía predeterminada en todas las notas
+"If this option is enabled, the custom colors and fonts that have been assigned to individual notes will be ignored.",Si esta opción esta habilitada los colores y tipografías personalizadas que han sido asignados a las notas individuales serán ignorados.
+Whether to ask for confirmation when deleting a note,Define si se debe solicitar una confirmación cuando se está borrando una nota
+Empty notes are always deleted without confirmation.,Las notas vacías siempre se borran sin confirmación.
+Show sticky notes,Mostrar notas adhesivas
+Sticky Notes for the GNOME Desktop Environment,Notas adhesivas para el «Entorno de Escritorio GNOME»
+Trash,Papelera
+Go to Trash,Ir a la papelera
+Open Trash,Abrir papelera
+Empty Trash,Vaciar papelera
+No Items in Trash,No hay elementos en la papelera
+Error while spawning nautilus: %s,Error al resucitar Nautilus: %s
+A GNOME trash bin that lives in your panel. You can use it to view the trash or drag and drop items into the trash.,Un cubo de papelera que vive en su panel. Puede usarlo para ver la papelera o arrastrar y soltar elementos en la papelera.
+Delete Immediately?,¿Borrar inmediatamente?
+"Cannot move items to trash, do you want to delete them immediately?","No se pueden mover los elementos a la papelera, ¿quiere borrarlos inmediatamente?"
+"Cannot move some items to trash, do you want to delete these immediately?","No se pueden mover algunos elementos a la papelera, ¿quiere borrar éstos inmediatamente?"
+Trash Applet,Miniaplicación de la papelera
+Removing item %s of %s,Eliminando elemento %s de %s
+Removing: %s,Eliminando: %s
+Empty all of the items from the trash?,¿Seguro que quiere vaciar todos los elementos de la papelera?
+"If you choose to empty the trash, all items in it will be permanently lost. Please note that you can also delete them separately.","Si elije vaciar la papelera, todos los elementos dentro de ella se borrarán y se perderán para siempre. También puede borrarlos por separado."
+Emptying the Trash,Vaciando la papelera
+Battery Charge Monitor Preferences,Preferencias del monitor de carga de la batería
+Appearance,Apariencia
+(shows single image for status and charge),(muestra una sola imagen para el estado y la carga)
+The battery level below which the battery is displayed as red. Also the value at which the low battery warning is displayed.,El nivel de batería por debajo del cual ésta se muestra en rojo. También el valor en el cual se muestra la advertencia de batería baja.
+Warn on low time rather than low percentage,Advertir cuando quede poco tiempo en vez de bajo porcentaje
+Notify user when the battery is full.,Notificar al usuario cuando la batería esté cargada.
+Beep for warnings,Pitar para los avisos
+Beep when displaying a warning.,Pitar al mostrar un aviso
+Gnome Panel applet for selecting strange characters that are not on my keyboard. Released under GNU General Public Licence.,Miniaplicación del panel de GNOME que permite seleccionar caracteres que no son accesibles directamente con el teclado. Distribuido bajo la Licencia Pública General GNU.
+Monitor Settings,Ajustes del monitor
+Display Settings,Ajustes del visor
+Today,Hoy
+5 Days,5 días
+3 Months,3 meses
+6 Months,6 meses
+1 Year,1 año
+5 Years,5 años
+Maximum,Máximo
+Label,Etiqueta
+Size,Tamaño
+Root password required,Se requiere la contraseña de «root»
+Keyboard Indicator (Deprecated),Indicador del teclado (obsoleto)
+Inbox Monitor,Monitor del buzón de entrada
+One or more panel items (also referred to as applets) are no longer available in the GNOME desktop.,Uno o más elementos del panel (también llamados miniaplicaciones) ya no están disponibles en el escritorio GNOME.
+Delete this sticky note?,¿Borrar esta nota adhesiva?
+This cannot be undone.,Esto no se puede deshacer.
+Delete all sticky notes?,¿Borrar todas las notas adhesivas?
+Sticky notes' workspace stickyness,Área de trabajo no pegadiza para las notas adhesivas
+"If this option is disabled, a custom color can be used as the default color for all sticky notes.",Si esta opción está desactivada se puede utilizar una color personalizado como el color predeterminado para todas las notas adhesivas.
+"If this option is disabled, a custom font can be used as the default font for all sticky notes.","Si esta opción está desactivada, se puede utilizar una tipografía personalizada como tipografía predeterminada para todas las notas adhesivas."
+"If this option is enabled, the custom colors and fonts that have been assigned to individual notes will be ignored.",Si esta opción esta activada los colores y tipografías personalizadas que han sido asignados a las notas individuales se ignorarán.
+Sticky Notes for the GNOME Desktop Environment,Notas adhesivas para el «Entorno de escritorio GNOME»
+"Cannot move some items to trash, do you want to delete these immediately?","No se pueden mover algunos elementos a la papelera, ¿quiere borrar estos inmediatamente?"
+Removing item %s of %s,Quitando el elemento %s de %s
+Removing: %s,Quitando: %s
+"If you choose to empty the trash, all items in it will be permanently lost. Please note that you can also delete them separately.","Si elije vaciar la papelera, todos los elementos dentro de ella se borrarán y se perderán para siempre. También puede borrarlos separadamente."
+From:,Desde:
+"0 for no label, 1 for percentage and 2 for time remaining.","0 para ninguna etiqueta, 1 para porcentaje y 2 para tiempo restante."
+Battstat Factory,Fábrica para «Estado de la batería»Warn when battery charge drops to: [XX] percent
+Average change: %s,Cambio promedio de las acciones %%: %+.2f%%
+Positions balance: %s %s (%s),Balance de las posiciones: %+.2flast price
+Delete Note...,Borrar la nota…
+Lock Note,Bloquear la nota
+Open the keyboard preferences dialog,Abrir el diálogo de preferencias del teclado
+Cannot start Nautilus File Manager,No se puede iniciar el gestor de archivos Nautilus
+Could not find Nautilus,No se pudo encontrar Nautilus
+Directory in which the theme is located,Carpeta en la que se encuentra el tema
+Invest Applet Factory,Fábrica de la miniaplicación Inversiones
+Factory for creating the invest applet.,Fábrica para crear la miniaplicación de inversiones.
+Line,Línea
+Bar,Barra
+Candle,Vela
+Scale:,Escala:
+Linear,Lineal
+Logarithmic,Logarítmica
+Add Group,Añadir grupo
+Show stocks of index values,Mostrar las cotizaciones de los valores índice
+"An index value, for instance the NASDAQ Composite (^IXIC), is based on a number of stocks. This option allows to also show the quotes of the stocks an index is based on.","Un valor índice, el NASDAQ Composite (^IXIC) por ejemplo, se basa en un número de cotizaciones. Esta opción permite mostrar también las acciones de la cotización en las que se basa un índice."
+Hide charts in quotes list,Ocultar gráficos en la lista de acciones
+A small chart image is shown next to each quote. The retrieval of each chart image causes network traffic. Hiding charts reduces the network bandwidth demand significantly.,Junto a cada acción se muestra un pequeño gráfico. La obtención de cada gráfico provoca tráfico de red. Ocultar estos gráficos reduce la demanda de ancho de banda de la red significativamente.
+Source: Yahoo! Finance (at least 15 minutes delayed),Fuente: Yahoo! Finanzas (retraso de 15 minutos mínimo)
+Currency,Divisa
+Type the target currency to which all stock quotes will be converted to.,Escriba la divisa objetivo a la que se convertirán todas las acciones de la cotización.
+Refresh,Actualizar
+Currency Rate,Tipo de cambio
+Stock Group,Grupo de cotizaciones
+Delete entire stock group?,¿Eliminar el grupo de cotizaciones completo?stock group
+This removes all stocks contained in this stock group! Do you really want to remove this stock group?,Esto elimina todas las cotizaciones de este grupo de cotizaciones. ¿Realmente quiere quitar este grupo de cotizaciones?
+Average change: %s,Cambio promedio: %s
+Positions balance: %s %s (%s),Balance de las posiciones: %s %s (%s)
+Updated at %s,Actualizado el %slast price
+Start system-monitor,Iniciar el monitor del sistema
+Choose a font to use for all sticky notes,Seleccionar una tipografía para usar en todas las notas adhesivas
+Choose a base color to use for all sticky notes,Seleccionar un color base para usar con todas las notas adhesivas
+Hide notes when the desktop is clicked on,Ocultar las notas cuando el escritorio está pulsado
+Choose whether to hide all notes when selecting on the desktop,Seleccionar si ocultar todas las notas al seleccionar en el escritorio
+Choose if the default style is forced on all notes,Seleccionar si se debe forzar el estilo predeterminado en todas las notas
+Choose if notes are visible on all workspaces,Seleccionar si las notas serán visibles en todas las áreas de trabajo
+Choose a font for the note,Seleccionar una tipografía para la nota
+Choose a color for the note,Seleccionar un color para la nota
+Whether to use the default system color,Indica si se debe utilizar el color predeterminado del sistema
+Whether to use the default system font,Indica si se debe utilizar la tipografía predeterminada del sistema
+Whether to force the default color and font on all notes,Indica si se debe forzar el uso del color y la tipografía predeterminada en todas las notas
+Whether to hide all notes when the desktop is selected,Indica si ocultar todas las notas cuando el escritorio está seleccionado
+"If this option is enabled, selecting the desktop in any way will automatically hide all the open notes.","Si esta opción está activada, seleccionar el escritorio de cualquier forma ocultará automáticamente todas las notas abiertas."
+Whether to ask for confirmation when deleting a note,Indica si se debe solicitar una confirmación cuando se está borrando una nota
+Spinbutton for updating,Botón para actualizar
+Update interval,Botón de intervalo de actualización
+"The interval, in seconds, between automatic updates.",Tiempo en segundos entre las actualizaciones del estado
+Display radar map,Activar el mapa de radar
+Show notification,Notificaciones
+Show notifications for critical weather conditions,Una aplicación del panel para monitorizar la meteorología local.
+upower backend enabled.,Backend de HAL activado.
+Error while spawning Nautilus: %s,Error al resucitar Nautilus: %s
+DEFAULTLOCATION,Madrid (Barajas)LGAVDEFAULTCODE
+DEFAULTCODE,LEMDDEFAULTZONE
+DEFAULTZONE,----
+DEFAULTRADAR,----
+DEFAULTCOORDINATES,LEMD
+km/h,Km/h
+mmHg,mmHg
+inHg,inHg
+km,Km
+mi,"miK"" (Kelvin), ""C"" (Celsius) and ""F"
+DEFAULTTEMPUNIT,"Cm/s"" (meters per second), ""km/hmph"" (miles per hour) and ""knots"
+DEFAULTSPEEDUNIT,"km/hkPa"" (kiloPascals), ""hPamb"" (millibars), ""mmHginHg"" (inches of mercury) and ""atm"
+DEFAULTPRESSUREUNIT,"mmHgm"" (meters), ""km"" (kilometers) and ""mi"
+DEFAULTDISTANCEUNIT,km
+Update the data automatically,Actualizar los datos automáticamente
+Determines whether the applet automatically updates its weather statistics or not.,Determina si la miniaplicación actualiza automáticamente sus estadísticas meteorológicas o no.
+Update interval,Intervalo de actualización
+"The interval, in seconds, between automatic updates.",El intervalo en segundos entre las actualizaciones automáticas.
+Use metric units,Usar unidades métricas
+Use metric units instead of english units.,Usa unidades métricas en vez de las unidades inglesas.
+Distance unit,Unidad de distancia
+The unit to use for visibility.,La unidad en que medir la visibilidad.
+Pressure unit,Unidad de presión
+The unit to use for pressure.,La unidad en la que medir la presión.
+Speed unit,Unidad de velocidad
+The unit to use for wind speed.,La unidad en que medir la velocidad del viento.
+Temperature unit,Unidad de temperatura
+The unit to use for temperature.,La unidad en la que medir la temperatura.
+Display radar map,Mostrar el mapa de radar
+Fetch a radar map on each update.,Obtener un mapa de radar con cada actualización.
+Weather location information,Información meteorológica de una zona
+Weather location information.,Información meteorológica de una zona.
+Nearby city,Ciudad cercana
+"Nearby major zone, such as a capital city, as found from http://git.gnome.org/cgit/libgweather/plain/data/Locations.xml.in","Zona mayor más próxima, como una capital, tal como se encuentra en http://svn.gnome.org/viewvc/libgweather/trunk/data/Locations.xml.in"
+Zone location,Situación de la zona
+"A unique zone for the city, as found from http://git.gnome.org/cgit/libgweather/plain/data/Locations.xml.in","Una zona única para la ciudad, tal como se encuentra en http://svn.gnome.org/viewvc/libgweather/trunk/data/Locations.xml.in"
+Radar location,Zona de radar
+"A three-digit-long code for retrieving radar maps from weather.com, found from http://git.gnome.org/cgit/libgweather/plain/data/Locations.xml.in","Un código de tres dígitos para obtener los mapas de radar desde weather.com, tal como los que se encuentran en http://svn.gnome.org/viewvc/libgweather/trunk/data/Locations.xml.in"
+Weather for a city,Meteorología para una ciudad
+The city that gweather displays information for.,La ciudad para la que gweather muestra información.
+Location coordinates,Coordenadas de la zona
+Latitude and longitude of your location expressed in DD-MM-SS[NS] DD-MM-SS[EW].,Latitud y longitud de su zona expresada en DD-MM-SS[NS] DD-MM-SS[EW].
+Use custom url for the radar map,Usa una url personalizada para el mapa del radar
+"If true, then retrieve a radar map from a location specified by the ""radar"" key.","Si es «true» (verdadero), entonces recupera un mapa de radar desde la dirección especificada por la clave «radar»."
+Url for the radar map,Url para el mapa del radar
+The custom url from where to retrieve a radar map.,La url personalizada desde donde recuperar un mapa de radar.timezone
+Failed to get METAR data: %d %s.,Falló la obtención de los datos METAR: %d %s.
+WeatherInfo missing location,Zona no existente para WeatherInfo
+Variable,Variable
+North,Norte
+North - NorthEast,Norte - Noreste
+Northeast,Noreste
+East - NorthEast,Este - Noreste
+East,Este
+East - Southeast,Este - Sureste
+Southeast,Sureste
+South - Southeast,Sur - Sureste
+South,Sur
+South - Southwest,Sur - Suroeste
+Southwest,Suroeste
+West - Southwest,Oeste - Suroeste
+West,Oeste
+West - Northwest,Oeste - Noroeste
+Northwest,Noroeste
+North - Northwest,Norte - Noroeste
+Invalid,Inválido
+Clear Sky,Cielo despejado
+Broken clouds,Nubosidad dispersa
+Scattered clouds,Nubes dispersas
+Few clouds,Algunas nubes
+Overcast,"Cubierto de nubesblowing"" ""shallow"" ""partial"
+Thunderstorm,Tormenta
+Drizzle,Llovizna
+Light drizzle,Llovizna ligera
+Moderate drizzle,Llovizna moderada
+Heavy drizzle,Llovizna abundante
+Freezing drizzle,Llovizna helada
+Rain,Lluvia
+Light rain,Lluvia ligera
+Moderate rain,Lluvia moderada
+Heavy rain,Lluvia fuerte
+Rain showers,Aguaceros
+Freezing rain,Lluvia helada
+Snow,Nieve
+Light snow,Nieve ligera
+Moderate snow,Nieve moderada
+Heavy snow,Nieve abundante
+Snowstorm,Tormenta de nieve
+Blowing snowfall,Cascada de nieve
+Snow showers,Aguanieve
+Drifting snow,Corriente de nieve
+Snow grains,Granizada
+Light snow grains,Granizada ligera
+Moderate snow grains,Granizada moderada
+Heavy snow grains,Granizada abundante
+Ice crystals,Cristales de hielo
+Ice pellets,Bolitas de hielo
+Few ice pellets,Pocas bolitas de hielo
+Moderate ice pellets,Bolitas de hielo moderadas
+Heavy ice pellets,Bolitas de hielo abundante
+Ice pellet storm,Tormenta de bolitas de hielo
+Showers of ice pellets,Chorros de bolitas de hielo
+Hail,Pedrisco
+Hailstorm,Tormenta de pedrisco
+Hail showers,Pedrisco con lluvia
+Small hail,Granizo pequeño
+Small hailstorm,Pequeña tormenta de granizo
+Showers of small hail,Granizo con lluvia
+Unknown precipitation,Precipitación desconocida
+Mist,Neblina
+Fog,Niebla
+Fog in the vicinity,Niebla en los alrededores
+Shallow fog,Niebla muy gruesa
+Patches of fog,Niebla dispersa
+Partial fog,Niebla parcial
+Freezing fog,Niebla helada
+Smoke,Humo
+Volcanic ash,Cenizas volcánicas
+Sand,Arena
+Blowing sand,Viento con arena
+Drifting sand,Corriente de arena
+Haze,Bruma
+Blowing sprays,Cortina de rocío
+Dust,Polvo
+Blowing dust,Cortina de polvo
+Drifting dust,Corriente de polvo
+Squall,Chubasco
+Sandstorm,Tormenta de arena
+Sandstorm in the vicinity,Tormenta de arena en los alrededores
+Heavy sandstorm,Tormenta de arena abundante
+Duststorm,Tormenta de polvo
+Duststorm in the vicinity,Tormenta de polvo en los alrededores
+Heavy duststorm,Tormenta de polvo abundante
+Funnel cloud,Nublado
+Tornado,Tornado
+Dust whirls,Remolino de polvo
+Dust whirls in the vicinity,Remolino de polvo en los alrededores
+"%a, %b %d / %H:%M",%a %d de %b / %H:%M
+Unknown observation time,Hora de observación desconocida
+%.1f °F,%.1f °F
+%d °F,%d °F
+%.1f °C,%.1f °C
+%d °C,%d °C
+%.1f K,%.1f K
+%d K,%d K
+%.f%%,%.f%%
+%0.1f knots,%0.1f nudos
+%.1f mph,%.1f mph
+%.1f km/h,%.1f km/h
+%.1f m/s,%.1f m/s
+Beaufort force %.1f,Fuerza Beaufort %.1f
+Calm,Calma
+%s / %s,%s / %s
+%.2f inHg,%.2f inHg
+%.1f mmHg,%.1f mmHg
+%.2f kPa,%.2f kPa
+%.2f hPa,%.2f hPa
+%.2f mb,%.2f mb
+%.3f atm,%.3f atm
+%.1f miles,%.1f millas
+%.1f km,%.1f km
+%.0fm,%.0fm
+%H:%M,%H:%M
+Retrieval failed,Ha fallado la obtención
+Location Entry,Coordenadas de la zona
+Greenwich Mean Time,timezone
+Invalid,"Inválidoblowing"" ""shallow"" ""partial"
+Overcast,Cubierto de nubes
+Moderate sleet,Nieve moderada
+Heavy sleet,Nieve abundante
+Sleet storm,Tormenta de bolitas de hielo
+Showers of sleet,Chorros de bolitas de hielo
+"%a, %b %d / %H∶%M",%a %d de %b / %H:%M
+URL for the radar map,Url para el mapa del radar
+"The custom URL from where to retrieve a radar map, or empty for disabling radar maps.",La url personalizada desde donde recuperar un mapa de radar.
+Default location,Situación de la zona
+default:mm,Predeterminado
+'knots',nudos

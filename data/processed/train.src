@@ -1,0 +1,713 @@
+Danish Sun USB keymap
+Use metric units instead of english units.
+Snowstorm
+Address Entry
+3 Months
+Italian Sun keymap
+Heavy snow grains
+Plain Russian keymap
+Panel applet for playing audio CDs
+Whether to force the default color and font on all notes
+Monitor a laptop's remaining power
+Dutch Sun keymap
+Notifications
+Show notification
+GCONFDISABLEMAKEFILESCHEMAINSTALL is set, not installing schemas
+MACD
+Forecast Report
+Choose a font to use for all sticky notes
+Both Ctrl keys together change layout.
+Perform history autocompletion
+Type the target currency to which all stock quotes will be converted to.
+Amount
+Swedish Sun Type-4 keymap
+Volcanic ash
+Italian keymap
+Price
+Delete Notes
+Disk
+Time in seconds between status updates
+Indicators:
+Refresh
+Russian keymap
+Cannot move some items to trash, do you want to delete these immediately?
+Harddisk
+Swedish keymap
+French-Canadian 105-key
+Keyboard Preferences
+Command line foreground:
+Could not create libhalctx
+%s/s
+A three-digit-long code for retrieving radar maps from weather.com, found from http://git.gnome.org/cgit/libgweather/plain/data/Locations.xml.in
+Cannot move some items to trash, do you want to delete these immediately?
+Your battery is running low
+Updated at %s
+MiniCommander Applet Factory
+The green component of the background color.
+Add New Macro
+Start system-monitor
+Open Volume Control
+insert special character %s
+Graph color for shared memory
+Kelvin
+CPU graph background color
+Turkish "F" keyboard
+Graph color for user-related memory usage
+Beep for warnings
+East - NorthEast
+Directory in which the theme is located
+Location view
+For horizontal panels, the width of the graphs in pixels. For vertical panels, this is the height of the graphs.
+The type of text to display (if the text is enabled).
+Shallow fog
+Inbox Monitor
+Disconnect
+West
+Graph color for system-related CPU activity
+Show a handle so the applet can be detached from the panel.
+Fog in the vicinity
+Freezing fog
+Enable memory load graph
+Hungarian 105-key latin 1
+Write
+This cannot be undone.
+Average change: %s
+Font Color:
+Ice pellets
+Greenwich Mean Time
+inHg
+CD Player
+Pressure:
+Greek keymap
+Current Conditions
+Portuguese Sun Type-4 keymap
+US DEC 450
+Keyboard Accessibility Status
+Shared
+Battstat Factory
+Removing item %s of %s
+Help
+HAL backend enabled.
+Height:
+Chart downloaded
+Display radar map
+Use custom address for radar map
+Sticky Notes Applet Factory
+Find:
+Connect
+Battery Status Utility
+Url for the radar map
+Forecast not currently available for this location.
+The blue component of the foreground color.
+If you choose to empty the trash, all items in it will be permanently lost. Please note that you can also delete them separately.
+Dust whirls
+Update the data automatically
+Command:
+Default Note Properties
+(mounted)
+Macedonian
+An index value, for instance the NASDAQ Composite (^IXIC), is based on a number of stocks. This option allows to also show the quotes of the stocks an index is based on.
+Monitor the current weather conditions, and forecasts
+Graph color for output network activity
+Wind speed unit:
+Monitor Settings
+The unit to use for temperature.
+The interval, in seconds, between automatic updates.
+Hungarian 101-key latin 1
+Cannot get schema for %s: %s
+URL for the radar map
+Last
+Georgian Russian layout
+No battery present
+Factory for deprecating applets
+Ticker
+Update interval
+Right Alt key changes layout.
+Spanish keymap
+Force default color and font on notes
+Light drizzle
+Default color for new sticky notes. This should be in html hex specification, for example "#30FF50".
+Gain
+Appearance
+Deactivate
+Disk Load
+Blowing snowfall
+Red value level
+Beaufort scale
+Select a location:
+Keyboard Accessibility Status Applet Factory
+Brazil Portuguese Sun USB keymap
+Spinbutton for updating
+Used
+Visibility:
+Geyes Applet Factory
+Hungarian 105-key latin 2
+Sandstorm
+Idle
+Warn on low time rather than low percentage
+Snow
+Whether to use the default system color
+North - NorthEast
+CPU Load
+Gweather Applet Factory
+Size
+Hungarian PC/AT 101 keyboard
+Drain from top
+The blue component of the background color.
+Heavy sandstorm
+Pressure unit:
+Few ice pellets
+Small hail
+See the ForeCast Details
+If you choose to empty the trash, all items in it will be permanently lost. Please note that you can also delete them separately.
+Slow stoch
+Unknown observation time
+A small chart image is shown next to each quote. The retrieval of each chart image causes network traffic. Hiding charts reduces the network bandwidth demand significantly.
+Default font for new notes
+Details
+Menu key changes layout.
+Invest
+Command line has been disabled by your system administrator
+Whether to use the default system font
+One or more panel items (also referred to as applets) are no longer available in the GNOME desktop.
+Volume Control (Deprecated)
+Spinbutton for updating
+Chart could not be downloaded
+Georgian Latin
+Lock Note
+Monitor Settings
+Background
+There was a fatal error while trying to load the theme.
+British Sun USB keymap
+Saved volume to restore on startup
+Enable CPU load graph
+Memory
+West - Southwest
+A GNOME trash bin that lives in your panel. You can use it to view the trash or drag and drop items into the trash.
+Buffers
+Update interval
+Volume Control
+Edit
+Failed to start Volume Control: %s
+US International
+General
+Choose a font for the note
+Thai Sun keymap
+East - Southeast
+A system load indicator
+Fetch a radar map on each update.
+Battery Charge Monitor
+Cached
+User
+Keyboard layout indicator applet for GNOME
+Disk Mounter
+Characters shown on applet startup
+Left Ctrl key changes group.
+Lao keymap
+%a, %b %d / %H:%M
+Source: Yahoo! Finance (at least 15 minutes delayed)
+%.1f miles
+Delete All
+Moderate drizzle
+Few clouds
+Update
+Show a frame surrounding the applet.
+French Swiss keymap
+Belarusian Sun keymap
+Graph color for load average
+Choose whether to hide all notes when selecting on the desktop
+Plugins
+Specify the default height (in pixels) of new notes
+Command Line
+Foreground color, blue component
+Warn when battery charge drops to:
+Moderate rain
+Location
+By default, sticky notes are given the current date as the title when they are created. This format is used; anything that can be parsed by strftime() is valid.
+Estonian keymap
+Applet for mounting and unmounting block volumes.
+The custom url from where to retrieve a radar map.
+%.1f °F
+Interval timeout to check mount point status
+%.2f inHg
+Charpicker Applet Factory
+Nice
+Start program
+US Sun type5 keymap
+%H:%M
+Volume Control...
+Hungarian 101-key latin 2
+Refresh
+Display Settings
+Heavy snow
+Graph color for disk write
+Keyboard Layout
+Italian Sun USB keymap
+Bollinger
+Appearance:
+The system load average is %0.02f
+Options
+Unmount %s
+Battery Notice
+© 1999-2005 by S. Papadimitriou and others
+Show frequency units
+Click this button to start the browser
+Notify user when the battery is low.
+Change %
+DEFAULTRADAR
+Candle
+Default width for new notes
+Go to Trash
+System is running on AC power
+Load
+Delete all sticky notes?
+French keymap
+%d %s %d %s until charged (%d%%)
+Enable network load graph
+DEFAULTTEMPUNIT
+Logarithmic
+Frequency Scaling Unsupported
+Sticky notes' locked state
+Weather location information.
+Conditions:
+Lithuanian Sun keymap
+South - Southeast
+US 105-key keyboard (with windows keys)
+Delete entire stock group?
+No items in history
+Financial Chart - %s
+Background color, blue component
+Automatically update every:
+Determines whether the applet automatically updates its weather statistics or not.
+Serbian keymap
+Small hailstorm
+Label
+To disconnect from your Internet service provider, you need administrator privileges
+Icelandic Sun keymap
+Lithuanian keymap
+Unknown error
+%s: %d%%
+History list
+Mongolian keymap
+Insert special character
+The unit to use for pressure.
+Danish keymap
+Foreground color, green component
+Error: %s
+Width:
+Macros
+Colors
+Russian Sun keymap
+Alt+Control changes layout.
+Fahrenheit
+French Sun USB keymap
+Command line background:
+Light rain
+Could not find Nautilus
+Could not launch network configuration tool
+GB 102-key
+Processor
+milliseconds
+Variable
+Heavy drizzle
+AccessX Status
+Portuguese Sun keymap
+Japanese keymap
+Gain %
+Activate
+To avoid losing your work: • plug your laptop into external power, or • save open documents and shut your laptop down.
+Drifting sand
+You have not entered any stock information yet
+Spanish Sun keymap
+List of GConfValue entries containing strings for the macro patterns.
+Memory Load
+DEFAULTZONE
+The interval, in seconds, between automatic updates.
+Volume control for your GNOME Panel.
+Battery fully re-charged
+System monitor height:
+If this option is enabled, the custom colors and fonts that have been assigned to individual notes will be ignored.
+If this option is disabled, a custom font can be used as the default font for all sticky notes.
+Graph color for input network activity
+Appearance
+West - Northwest
+%s: muted
+Fast stoch
+(not mounted)
+Financial Chart
+Swap Space
+The volume control did not find any elements and/or devices to control. This means either that you don't have the right GStreamer plugins installed, or that you don't have a sound card configured.
+Broken clouds
+Cannot execute '%s'
+Stock Group
+Keyboard Indicator
+Removing: %s
+Add Macro...
+Use metric units
+Keyboard Indicator (%s)
+Graphic
+Change CPU Frequency scaling
+Heavy sleet
+Display
+Light snow grains
+You may not specify duplicate patterns
+Mist
+DEFAULTCODE
+Armenian Sun keymap
+US Sun USB keymap
+Stocks
+Arabic keymap
+Swedish Sun keymap
+Hebrew Sun keymap
+Local
+Command line
+Distance unit
+Upright (small) battery
+You can remove the volume control from the panel by right-clicking the speaker icon on the panel and selecting "Remove From Panel" from the menu.
+A unique zone for the city, as found from http://git.gnome.org/cgit/libgweather/plain/data/Locations.xml.in
+Patches of fog
+Click this button for the list of previous commands
+Unknown Volume Control %d
+Mongolian alt keymap
+Canadian Sun keymap
+mmHg
+List of available palettes
+DEFAULTPRESSUREUNIT
+The city that gweather displays information for.
+No batteries found
+Font:
+Haze
+The server could not be contacted. The computer is either offline or the servers are down. Try again later.
+Pick a default sticky note font
+This utility shows the current CPU Frequency Scaling.
+Mute
+Gnome Panel applet for selecting strange characters that are not on my keyboard. Released under GNU General Public Licence.
+Use default color
+Graph color for user-related CPU activity
+Dust
+Date format of note's title
+Latvian Sun keymap
+Location coordinates
+Russian Cyrillic
+Pattern
+This utility shows the status of your laptop battery.
+Address:
+Command
+Empty Trash
+This utility shows the current CPU Frequency
+Unknown time (%d%%) remaining
+XKB Extension is not enabled
+Load graph background color
+Click to add a new palette
+CPU Frequency Monitor Preferences
+Type a command here and Gnome will execute it for you
+Sandstorm in the vicinity
+Show CPU frequency as frequency
+mb
+Show time remaining
+German keymap
+Show Current Layout
+Copyright (c) Sergey V. Udaltsov 1999-2004
+Failed to access configuration source(s): %s
+Brazil Portuguese Sun keymap
+Mount %s
+(shows single image for status and charge)
+Weather Forecast
+Gnome Panel applet for selecting strange characters that are not on my keyboard. Released under GNU General Public Licence.
+m/s
+Graph style:
+Auto refresh
+Monitor the quality of a wireless network link
+Attempt to autocomplete a command from the history of commands entered.
+Enable swap load graph
+Feels like:
+Note: Quotes are delayed at least 15 minutes. Source: Yahoo!
+US PC/AT 101 keyboard
+Drifting snow
+Basque
+A panel application for monitoring local weather conditions.
+The red component of the background color.
+Moderate snow grains
+Use the default theme colors
+Background color for disk load graph
+CPU Frequency Scaling Monitor
+Nearby major zone, such as a capital city, as found from http://git.gnome.org/cgit/libgweather/plain/data/Locations.xml.in
+Directory in which the theme is located
+Invalid
+No stock quotes are currently available
+French Sun keymap
+Portugal Deadkeys
+The eyes look in the direction of the mouse pointer
+If this option is enabled, selecting the desktop in any way will automatically hide all the open notes.
+Rain
+Retrieval failed
+hPa
+Notify user when the battery is full.
+Hide Notes
+Macro command list
+Choose a color for the note
+Palettes list
+Beep for warnings
+Display radar map
+Do you want to connect?
+Forecast
+Polish
+Hail showers
+System
+There was an error executing '%s': %s
+Select the device and track to control.
+Azerbaijani Turkish Sun keymap
+A goofy set of eyes for the GNOME panel. They follow your mouse.
+Use default theme colors
+Notify user when the battery is full.
+Label
+Updated at %s
+Not used anymore
+The unit to use for wind speed.
+If this option is disabled, a custom color can be used as the default color for all sticky notes.
+Using GStreamer 0.10.
+Battery status unknown
+Duststorm
+German
+Default color for font
+Sky:
+km/h
+Heavy rain
+Weather Preferences
+Average
+Spanish Sun Type-4 keymap
+Root password required
+Close note
+Swiss German Sun keymap
+Scale:
+Width of the applet
+Scattered clouds
+Battery charged (%d%%)
+Tomboy (transparent upgrade from stickynotes)
+Edit Palette
+Macedonian Sun keymap
+Set default list value for %s
+Null Applet Factory
+List of GConfValue entries containing strings for history entries.
+Bulgarian Sun keymap
+Ukrainian Sun keymap
+%.2f mb
+Select a theme:
+Track your invested money.
+Show sticky notes
+French Swiss
+Create, view, and manage sticky notes on the desktop
+Showers of small hail
+Default font color for new sticky notes. This should be in html hex specification, for example "#000000".
+Factory for creating the invest applet.
+Graph color for loopback network usage
+Background color, red component
+Use color from the system theme
+Polish Sun keymap
+List of strings containing the available palettes.
+Southwest
+Use theme colors instead of custom ones.
+Deskbar (transparent upgrade from Mini-Commander)
+Default color for new notes
+Your battery is now fully recharged
+Updating...
+Exponential moving average:
+Click to Enter Weather.com
+Delete Note...
+Moderate ice pellets
+Resize note
+GNOME Weather
+5 Years
+Icelandic keymap
+Unknown time (%d%%) until charged
+Showers of sleet
+Ice crystals
+US Sun Type-4 keymap
+Visit Weather.com
+Enable history-based auto completion
+Norwegian
+US 101-key keyboard
+Delete Macro
+Legacy (non-HAL) backend enabled.
+Enable radar map
+Set the CPU to monitor. In a single processor system you don't have to change it.
+mi
+Whether to hide all notes when the desktop is selected
+Specify a title for the note
+Invest Preferences
+City:
+Georgian keymap
+Default location
+label
+English keymap
+Rain showers
+Behavior
+6 Months
+Specify the default width (in pixels) of new notes
+Specifies whether the sticky notes are visible on ALL workspaces on the desktop, or not.
+Click to delete the selected palette
+Lock/Unlock note
+Whether to ask for confirmation when deleting a note
+Enter the URL
+Out
+Freezing rain
+Groups
+Compact view
+CPU frequency scaling unsupported
+Quotes average change %%: %+.2f%%
+Eyes
+%.1f K
+There was an error displaying help: %s
+%.1f mph
+A set of eyeballs for your panel
+Overcast
+East
+%.1f mmHg
+Commission
+Enter password
+Mini-Commander
+Show stocks of index values
+German Sun Type-4 keymap
+Privileges are required to change the CPU Frequency scaling.
+Last update:
+Hide notes when the desktop is clicked on
+(two images: one for status, one for charge)
+British Sun keymap
+This note is unlocked.
+Squall
+HAL error
+upower backend enabled.
+Line
+%.2f kPa
+Showers of ice pellets
+Portugal
+Sunrise:
+Slovak keymap
+Italian Sun Type-4 keymap
+Finnish Sun keymap
+Duststorm in the vicinity
+Show notifications for critical weather conditions
+CPU to Monitor
+Display Settings
+Blowing sand
+Mount local disks and devices
+Character Palette Preferences
+Slovak Sun keymap
+Battstat Factory
+There was an error launching the help viewer: %s
+Error while spawning Nautilus: %s
+Turkish Sun keymap
+Check that you have typed it correctly and that you haven't activated the "caps lock" key
+The custom URL from where to retrieve a radar map, or empty for disabling radar maps.
+Overcast
+Japanese Sun Type-4 keymap
+mph
+Clear Sky
+Inbox Monitor (Deprecated)
+Radar Map
+Empty notes are always deleted without confirmation.
+Currency
+This applet adds a command line to the panel
+Pick a default sticky note color
+Connection active, but could not get connection time
+Minutes Remaining
+Edit button
+Load Average
+Snow grains
+There was an error launching the keyboard preferences dialog: %s
+Percent
+IOWait
+List of GConfValue entries containing strings for the macro commands.
+Serbian Sun standard keymap
+Drive Mount Applet Factory
+Radar location
+Weather for a city
+Shift+CapsLock changes layout.
+You will not receive this message again.
+Portuguese keymap
+Czech Sun keymap
+WeatherInfo missing location
+Failed to display help: %s
+%s: %u%% in use by programs %u%% in use as cache
+Southeast
+%0.1f knots
+Insert "%s"
+In
+Battery Charge Monitor Preferences
+Network graph background color
+Applet refresh rate in milliseconds
+Weather location information
+Net Load
+Show CPU frequency as percentage
+Volumes
+Layout shift behavior
+Choose a base color to use for all sticky notes
+Graph color for user-related swap usage
+From:
+Hungarian latin1
+Available palettes
+You must specify a pattern and a command
+%.1f °C
+Choose if the default style is forced on all notes
+Linear
+History
+Show frame
+Speed unit
+Delete this sticky note?
+Warn on low time rather than low percentage
+Keyboard layout indicator
+Default height for new notes
+The entered password is invalid
+Graph size
+Open the keyboard preferences dialog
+Turkish "Q" keyboard
+Swedish Sun USB keymap
+South
+Geyes Preferences
+The red component of the foreground color.
+Open System Monitor
+Sticky notes' workspace stickyness
+Japanese Sun keymap
+Macro pattern list
+Sticky notes' workspace stickyness
+Find Next
+About
+Northwest
+Bulgarian Cyrillic
+Trash Applet
+Snow showers
+Thai
+Width
+Trash
+If this option is disabled, a custom color can be used as the default color for all sticky notes.
+Czech keymap
+Left Alt key changes layout.
+%.3f atm
+Displays current state of keyboard accessibility features
+To connect to your Internet service provider, you need administrator privileges
+This note is locked.
+Notify when battery is fully recharged
+Default height for new sticky notes in pixels.
+Applet for activating and monitoring a dial-up network connection.
+This GNOME applet adds a command line to the panel. It features command completion, command history, and changeable macros.
+Battery power low
+Right Shift key changes group.
+North - Northwest
+Beaufort force %.1f
+German Swiss with Euro
+mmHg
+Open %s
+%d K
+Whether to ask for confirmation when deleting a note
+Heavy ice pellets
+Ice pellet storm
+Left Shift key changes group.
+Mode to show cpu usage
+Relative humidity:
+Splits
+Full Battery Notification
+Add button
+Sticky Notes
+Sticky Notes Preferences
+This cannot be undone.
+Unable to initialise HAL: %s: %s

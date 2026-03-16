@@ -3,7 +3,7 @@ param(
     [string]$SourceColumn = "source",
     [string]$TargetColumn = "target",
     [ValidateSet("quick", "report")]
-    [string]$Preset = "report",
+    [string]$Preset = "quick",
     [Nullable[int]]$TrainSteps = $null,
     [Nullable[int]]$ValidSteps = $null,
     [Nullable[int]]$SaveCheckpointSteps = $null,
@@ -19,20 +19,20 @@ function Convert-ToPosixPath {
 }
 
 if ($Preset -eq "quick") {
-    if (-not $TrainSteps.HasValue) { $TrainSteps = 200 }
-    if (-not $ValidSteps.HasValue) { $ValidSteps = 100 }
-    if (-not $SaveCheckpointSteps.HasValue) { $SaveCheckpointSteps = 200 }
+    if (-not $TrainSteps.HasValue) { $TrainSteps = 120 }
+    if (-not $ValidSteps.HasValue) { $ValidSteps = 60 }
+    if (-not $SaveCheckpointSteps.HasValue) { $SaveCheckpointSteps = 120 }
     if (-not $BatchSize.HasValue) { $BatchSize = 8 }
     if (-not $ValidBatchSize.HasValue) { $ValidBatchSize = 8 }
 } else {
-    if (-not $TrainSteps.HasValue) { $TrainSteps = 4000 }
+    if (-not $TrainSteps.HasValue) { $TrainSteps = 3000 }
     if (-not $ValidSteps.HasValue) { $ValidSteps = 200 }
     if (-not $SaveCheckpointSteps.HasValue) { $SaveCheckpointSteps = 500 }
     if (-not $BatchSize.HasValue) { $BatchSize = 16 }
     if (-not $ValidBatchSize.HasValue) { $ValidBatchSize = 16 }
 }
 
-Write-Host "Training preset: $Preset"
+Write-Host "Baseline preset: $Preset"
 Write-Host "train_steps=$TrainSteps valid_steps=$ValidSteps batch_size=$BatchSize"
 
 $PythonCandidates = @(
@@ -60,16 +60,17 @@ if (-not $PythonExe) {
 
 $OpenNMTDir = Join-Path $ProjectRoot "OpenNMT-py"
 $TrainDataDir = Join-Path $ProjectRoot "data\processed"
-$ConfigPath = Join-Path $TrainDataDir "finetune_config.yaml"
+$ConfigPath = Join-Path $TrainDataDir "baseline_config.yaml"
 $ModelsDir = Join-Path $ProjectRoot "models"
 $TrainScript = Join-Path $OpenNMTDir "train.py"
-$BaselineModel = Join-Path $ModelsDir "baseline_pretrained.pt"
 $TrainSrc = Join-Path $TrainDataDir "train.src"
 $TrainTgt = Join-Path $TrainDataDir "train.tgt"
 $ValidSrc = Join-Path $TrainDataDir "valid.src"
 $ValidTgt = Join-Path $TrainDataDir "valid.tgt"
 $SrcVocab = Join-Path $TrainDataDir "vocab.src"
 $TgtVocab = Join-Path $TrainDataDir "vocab.tgt"
+$BaselinePrefix = Join-Path $ModelsDir "baseline_pretrained"
+$BaselineFinal = Join-Path $ModelsDir "baseline_pretrained.pt"
 
 New-Item -ItemType Directory -Force -Path $TrainDataDir | Out-Null
 New-Item -ItemType Directory -Force -Path $ModelsDir | Out-Null
@@ -85,7 +86,7 @@ $TrainSrcPosix = Convert-ToPosixPath $TrainSrc
 $TrainTgtPosix = Convert-ToPosixPath $TrainTgt
 $ValidSrcPosix = Convert-ToPosixPath $ValidSrc
 $ValidTgtPosix = Convert-ToPosixPath $ValidTgt
-$SaveModelPosix = Convert-ToPosixPath (Join-Path $ModelsDir "finetuned_model")
+$BaselinePrefixPosix = Convert-ToPosixPath $BaselinePrefix
 
 $yamlLines = @(
     "save_data: $SaveDataPath",
@@ -100,9 +101,9 @@ $yamlLines = @(
     "    path_src: $ValidSrcPosix",
     "    path_tgt: $ValidTgtPosix",
     "",
-    "save_model: $SaveModelPosix",
+    "save_model: $BaselinePrefixPosix",
     "save_checkpoint_steps: $SaveCheckpointSteps",
-    "keep_checkpoint: 8",
+    "keep_checkpoint: 6",
     "train_steps: $TrainSteps",
     "valid_steps: $ValidSteps",
     "report_every: 50",
@@ -140,26 +141,28 @@ $yamlLines = @(
     "n_sample: 0"
 )
 
-if (Test-Path $BaselineModel) {
-    $BaselineModelPosix = Convert-ToPosixPath $BaselineModel
-    $yamlLines += "train_from: $BaselineModelPosix"
-    Write-Host "Baseline model found. Finetuning will start from baseline_pretrained.pt"
-} else {
-    Write-Host "No baseline_pretrained.pt found. Training domain model from scratch."
-}
-
 Set-Content -Path $ConfigPath -Value (($yamlLines -join "`n") + "`n") -Encoding UTF8
 
 Write-Host "Step 2: generate plain-text vocab files"
 & $PythonExe -c "from collections import Counter; from pathlib import Path; import sys; src=Path(sys.argv[1]); tgt=Path(sys.argv[2]); src_out=Path(sys.argv[3]); tgt_out=Path(sys.argv[4]); c1=Counter(); c2=Counter(); [c1.update(line.strip().split()) for line in src.open('r', encoding='utf-8') if line.strip()]; [c2.update(line.strip().split()) for line in tgt.open('r', encoding='utf-8') if line.strip()]; src_out.parent.mkdir(parents=True, exist_ok=True); tgt_out.parent.mkdir(parents=True, exist_ok=True); f1=src_out.open('w', encoding='utf-8', newline='\n'); [f1.write(f'{tok}\t{cnt}\n') for tok, cnt in c1.most_common()]; f1.close(); f2=tgt_out.open('w', encoding='utf-8', newline='\n'); [f2.write(f'{tok}\t{cnt}\n') for tok, cnt in c2.most_common()]; f2.close()" $TrainSrc $TrainTgt $SrcVocab $TgtVocab
 if ($LASTEXITCODE -ne 0) { throw "vocab generation failed." }
 
-Write-Host "Step 3: train transformer model"
+Write-Host "Step 3: train baseline transformer model"
 if (Test-Path $TrainScript) {
     & $PythonExe $TrainScript -config $ConfigPath
 } else {
     & $PythonExe -m onmt.bin.train -config $ConfigPath
 }
-if ($LASTEXITCODE -ne 0) { throw "train.py failed." }
+if ($LASTEXITCODE -ne 0) { throw "baseline training failed." }
 
-Write-Host "Finetune finished. Check $ModelsDir for finetuned_model_step_*.pt"
+$LatestBaseline = Get-ChildItem $ModelsDir -Filter "baseline_pretrained_step_*.pt" -ErrorAction SilentlyContinue |
+    Sort-Object LastWriteTime -Descending |
+    Select-Object -First 1
+
+if (-not $LatestBaseline) {
+    throw "No baseline_pretrained_step_*.pt found after training."
+}
+
+Copy-Item -Path $LatestBaseline.FullName -Destination $BaselineFinal -Force
+Write-Host "Baseline ready: $BaselineFinal"
+Write-Host "Source checkpoint: $($LatestBaseline.FullName)"

@@ -1,0 +1,153 @@
+Maximum
+German Sun USB keymap
+Time connected: %.1d:%.2d
+%s / %s
+1 Year
+Left Win-key changes layout.
+Sleet storm
+Danish Sun Type-4 keymap
+Eject %s
+Command Line Preferences
+Tomboy (ne Stickynotes)
+Ticker symbol:
+This per-applet key is deprecated in favour of the global key, /schemas/apps/mini-commander-global/macropatterns.
+Choose a font to use for all sticky notes
+Swedish
+Unknown
+No Items in Trash
+%s: Receiving %s Sending %s
+Slovenian
+Show the battery meter draining from the top of the battery. Only implemented for traditional battery view.
+Estonian Sun keymap
+Overlays:
+Keyboard Layout "%s"
+Choose if notes are visible on all workspaces
+%.1f km
+DEFAULTLOCATION
+US Silicon Graphics 101-key
+The battery level below which the battery is displayed as red. Also the value at which the low battery warning is displayed.
+Invest Applet Factory
+Average change: %s
+Pressure unit
+Weather Report
+Pick a color for the sticky note
+UK 105-key
+A system load monitor capable of displaying graphs for CPU, ram, and swap space use, plus network traffic.
+Title:
+One or more panel items (also referred to as applets) are no longer available in the GNOME desktop.
+Spanish Sun USB keymap
+meters
+pixels
+Brazil Portuguese keymap
+%a, %b %d / %H∶%M
+Emptying the Trash
+Activate and monitor a dial-up network connection
+Finnish keymap
+Light snow
+System monitor update interval:
+0 for no label, 1 for percentage and 2 for time remaining.
+New Note
+Use default font
+%.1f km/h
+Danish Sun keymap
+Put notes on all workspaces
+Slovenian keymap
+Update spin button
+knots
+Bulgarian keymap
+Celsius
+DEFAULTDISTANCEUNIT
+Wireless Link Monitor
+Error syncing config data: %s
+Heavy duststorm
+Drifting dust
+Click to edit the selected palette
+Failed to get METAR data: %d %s.
+%.2f hPa
+Zone location
+Insert characters
+Norwegian Sun keymap
+Cannot start Nautilus File Manager
+US Macintosh
+Choose a base color to use for all sticky notes
+Show time/percentage:
+Show the traditional, horizontal battery on the panel.
+Whether to use the default system color
+Hebrew keymap
+Enable disk load graph
+Temperature unit:
+Latitude and longitude of your location expressed in DD-MM-SS[NS] DD-MM-SS[EW].
+Invalid
+Free
+CD Player (Deprecated)
+km
+Romanian Sun keymap
+Password:
+Character Palette
+Visibility unit:
+Hailstorm
+Text
+Properties
+Auto Completion
+Battery Charge Monitor Preferences
+Expanded view
+Choose a color for the note
+German Sun keymap
+Monitored Resources
+Sunset:
+Temperature unit
+Failed to load the Locations XML database. Please report this as a bug.
+Palettes:
+km
+Palette entry
+Moderate sleet
+Temperature:
+Removing: %s
+Thai keymap
+Themes
+%d °C
+Wind:
+%.0fm
+Default font for new sticky notes. This should be a Pango Font Name, for example "Sans Italic 10".
+Armenian
+Choose a font for the note
+If this option is enabled, the custom colors and fonts that have been assigned to individual notes will be ignored.
+Shows the status of keyboard accessibility features
+North
+Whether to use the default system font
+Hungarian latin2 Sun keymap
+Graph color for cached memory
+Cannot set schema for %s: %s
+UK PC/AT keyboard
+Opening Chart
+Location Entry
+Specifies whether the sticky notes are locked (non-editable) or not.
+Lock Notes
+Open Trash
+Dutch keymap
+Network
+Battery Monitor
+The desktop description file to execute as the system monitor
+Mini-Commander applet
+Mongolian phonetic keymap
+Turkish keymap
+Modify a palette by adding or removing characters
+You have %d%% of your total battery capacity remaining.
+To avoid losing your work: • suspend your laptop to save power, • plug your laptop into external power, or • save open documents and shut your laptop down.
+Invest Applet
+Memory graph background color
+The string that the user had selected when the applet was last used. This string will be displayed when the user starts the applet.
+Do you want to disconnect?
+Drizzle
+Today
+Sticky Note
+Delete button
+Beep when displaying a warning.
+Play CD
+US 84-key
+Alt+Shift changes layout.
+British Sun Type-4 keymap
+5 Days
+%d %s %d %s (%d%%) remaining
+A 0 value means to show cpu frequency, 1 to show frequency and units, and 2 to show percentage instead of frequency.
+Some panel items are no longer available

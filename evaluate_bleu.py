@@ -5,7 +5,7 @@ import subprocess
 from translator_backend import get_python_executable
 
 
-BASE_DIR = r"D:\opennmt_project"
+BASE_DIR = os.environ.get("OPENNMT_PROJECT_ROOT", os.path.dirname(os.path.abspath(__file__)))
 DATA_DIR = os.path.join(BASE_DIR, "data", "processed")
 OUTPUT_DIR = os.path.join(BASE_DIR, "outputs")
 

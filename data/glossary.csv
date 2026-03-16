@@ -1,0 +1,6 @@
+source,target
+machine translation,traduccion automatica
+glossary,glosario
+BLEU,puntuacion BLEU
+baseline,modelo base
+finetuned,modelo ajustado
