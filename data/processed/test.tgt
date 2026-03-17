@@ -1,153 +1,122 @@
-Máximo
-Mapa de teclado alemán USB de Sun
-Tiempo conectado: %.1d:%.2d
-%s / %s
-1 año
-La tecla Win izquierda cambia la distribución.
-Tormenta de bolitas de hielo
-Mapa de teclado danés Type 4 de Sun
-Expulsar %s
-Preferencias de línea de comandos
-Tomboy (antes Notas adhesivas)
-Símbolo del ticker:
-Esta clave por miniaplicación se ha declarado obsoleta en favor de la clave global, /schemas/apps/mini-commander-global/macropatterns.
-Seleccione una tipografía para usar en todas las notas adhesivas
-Sueco
-Desconocido
-No hay elementos en la papelera
-%s: Recibiendo %s Enviando %s
-Esloveno
-Mostrar el medidor de batería vaciándose desde la parte superior de la batería. Sólo implementado para la vista tradicional de la batería.
-Mapa de teclado estonio de Sun
-Overlays:
-Distribución del teclado «%s»
-Seleccionar si las notas serán visibles en todas las áreas de trabajo
-%.1f km
-Madrid (Barajas)LGAVDEFAULTCODE
-Estadounidense Silicon Graphics 101-teclas
-El nivel de batería por debajo del cual se muestra en rojo. También el valor en el cual se muestra la advertencia de batería baja.
-Fábrica de la miniaplicación Inversiones
-Cambio promedio de las acciones %%: %+.2f%%
-Unidad de presión
-Informe meteorológico
-Seleccione un color para la nota adhesiva
-Mapa de teclado Reino Unido 105-teclas
-Un monitor de carga del sistema capaz de mostrar gráficos para la CPU, RAM y del uso del espacio intercambio, además del tráfico de red.
-Título:
-Uno o más elementos del panel (también llamados miniaplicaciones) no están ya disponibles en el escritorio GNOME.
-Mapa de teclado español USB de Sun
-metroskilometers
-píxeles
-Mapa de teclado portugués brasileño
-%a %d de %b / %H:%M
-Vaciando la papelera
-Activar y monitorizar una conexión de marcado telefónico
-Mapa de teclado finlandés
-Nieve ligera
-Intervalo de actualización del monitor del sistema:
-0 para ninguna etiqueta, 1 para porcentaje y 2 para tiempo restante.Warn when battery charge drops to: [XX] percent
-Nota nueva
-Usar la tipografía predeterminada
-%.1f km/h
-Mapa de teclado danés de Sun
-Colocar las notas en todas las áreas de trabajo
-Mapa de teclado esloveno
-Botón de intervalo de actualización
-nudos
-Mapa de teclado búlgaro
-Centígrados
-km
-Monitor de enlace inalámbrico
-Error al sincronizar los datos de configuración: %s
-Tormenta de polvo abundante
-Corriente de polvo
-Pulse para editar la paleta seleccionada
-Falló la obtención de los datos METAR: %d %s.
-%.2f hPa
-Situación de la zona
-Insertar caracteres
-Mapa de teclado noruego de Sun
-No se puede iniciar el gestor de archivos Nautilus
-Estadounidense Macintosh
-Seleccione un color base para usar con todas las notas adhesivas
-Mostrar tiempo/porcentaje:
-Mostrar la batería tradicional horizontal en el panel.
-Define si se debe utilizar el color predeterminado del sistema
-Mapa de teclado hebreo
-Activar el gráfico de carga de disco
-Unidad de temperatura:
-Latitud y longitud de su zona expresada en DD-MM-SS[NS] DD-MM-SS[EW].
-Inválido
-Libre
-Reproductor de CD (obsoleto)
-Km
-Mapa de teclado rumano de Sun
-Contraseña:
-Paleta de caracteres
-Unidad de visibilidad:meters
-Tormenta de pedrisco
-Texto
-Propiedades
-Autocompletado
-Preferencias del monitor de carga de la batería
-Vista expandida
+Mapa de teclado árabe
+Carga de red
+¿Eliminar el grupo de cotizaciones completo?stock group
+Color del fondo, componente roja
+Avisarme cuando llegue correo nuevo
 Seleccionar un color para la nota
-Mapa de teclado alemán de Sun
-Recursos monitorizados
-Ocaso:
-Unidad de temperatura
+Mayús+Bloq Mayús cambia la distribución.
+Introduzca el URL
+Formato de fecha del título de la nota
+La tecla Bloq Mayús. cambia la distribución.
+Muestra la etiqueta de tiempo/porcentaje
+Mapa de teclado ruso de Sun
+El componente azul del color de fondo.
 Falló al cargar la base de datos XML de zonas. Informe de esto como un fallo.
-Paletas:
-Kmmiles
-Entrada de paleta
-Nieve moderada
-Temperatura:
-Quitando: %s
-Mapa de teclado tailandés
-Temas
-%d °C
-Viento:
-%.0fm
-Tipografía predeterminada para las notas adhesivas nuevas. Esto debería ser un nombre de tipografía Pango, por ejemplo «Sans Italic 10».
-Armenio
-Seleccionar una tipografía para la nota
-Si esta opción esta activada los colores y tipografías personalizadas que han sido asignados a las notas individuales se ignorarán.
-Muestra el estado de las características de accesibilidad del teclado
-Norte
-Indica si se debe utilizar la tipografía predeterminada del sistema
-Mapa de teclado húngaro latino2 de Sun
-El color del gráfico para la memoria caché
-No se puede establecer el esquema para %s: %s
-Reino Unido PC/AT
-Abriendo gráfica
-Coordenadas de la zona
-Especifica si las notas adhesivas están bloqueadas (no editables) o no.
-Bloquear las notas
-Abrir papelera
-Mapa de teclado holandés
-Red
-Monitor de la batería
-El archivo de descripción del escritorio que ejecutar como el monitor del sistema
-Miniaplicación Mini-Commander
-Mapa de teclado mongol fonético
+%.1f mmHg
+Mapa de teclado búlgaro de Sun
+Notificación de batería cargada
+Usar dirección personalizada para el mapa de radar
+Información meteorológica de una zona
+La tecla Menú cambia la distribución.
+Color de predeterminado para las notas nuevas
+Zona mayor más próxima, como una capital, tal como se encuentra en http://svn.gnome.org/viewvc/libgweather/trunk/data/Locations.xml.in
+Escriba la divisa objetivo a la que se convertirán todas las acciones de la cotización.
+Mapa de teclado sueco USB de Sun
+Añadir una macro nueva
+Activar el gráfico de carga de memoria
+Alemán suizo con Euro
+Tormenta de bolitas de hielo
+Forzar los colores y tipografías predeterminados en las notas
+Teclado húngaro PC/AT 101
+Nubes dispersas
+Indicador del teclado (obsoleto)
+Fábrica para miniaplicación selector de caracteres
+Iniciar el monitor del sistema
+Mostrar el mapa de radar
+%d °F
+Mapa de teclado rumano de Sun
+Determina si la miniaplicación actualiza automáticamente sus estadísticas meteorológicas o no.
+La tecla Alt derecha cambia la distribución.
+Línea de comandos
+Lista de entradas de GConfValue que contienen cadenas para los comandos de macro.
+Distribución georgiano rusa
+Debe asignar la variable de entorno GCONFCONFIGSOURCE
+Mostrar las cotizaciones de los valores índice
+%s: %u%% en uso por programas %u%% en uso como caché
+Cortina de rocío
+Niebla dispersa
+Un valor de 0 significa mostrar la miniaplicación en modo gráfico (sólo pixmap), 1 mostrar la miniaplicación en modo texto (no mostrar el pixmap) y 2 mostrar la miniaplicación en modo gráfico y texto.
+%.1f m/s
+OBSOLETO - Caracteres mostrados al iniciar la miniaplicación
+Indicador del teclado (%s)
+Mapa del teclado holandés de Sun
+Indica si se debe solicitar una confirmación cuando se está borrando una nota
+Notificarme cuando la batería esté recargada completamente
+Carga de la batería baja
+Este - Sureste
 Mapa de teclado turco
-Modificar una paleta añadiendo o quitando caracteres
+Notas adhesivas para el «Entorno de Escritorio GNOME»
+No se puede establecer el esquema para %s: %s
+Notas adhesivas para el «Entorno de escritorio GNOME»
+Abrir el diálogo de preferencias del teclado
+Informe meteorológico
+Especifique un título para la nota
+Miniaplicación del panel de GNOME para seleccionar caracteres que no están en el teclado. Distribuido bajo la Licencia Pública General GNU.
+Borrar macro
+Reproducir DVD
+Elija si las notas serán visibles en todas las áreas de trabajo
+Carga del intercambio
+Cristales de hielo
+Mostrar el porcentaje restante
+Mapa de teclado polaco de Sun
+3 meses
+No se pudo descargar la gráfica
+Línea de comandos
+Monitoriza el escalado de frecuencia de la CPU
+Mostrar el tirador
+Pulse para editar la paleta seleccionada
+Ha fallado la obtención
+Preferencias de Invest
+Ambas teclas Ctrl juntas cambian la distribución.
+Mapa de teclado suizo francés
+Tormenta de polvo abundante
+No se pudo contactar con el servidor. El equipo está apagado o los servidores están caídos. Pruebe de nuevo más tarde.
+%.2f kPa
+Si es «true» (verdadero), entonces recupera un mapa de radar desde la dirección especificada por la clave «radar».
+GB 105 teclas
+Ocurrió un error al lanzar el visor de ayuda: %s
+Mapa de teclado estadounidense Tipo 5 de Sun
+Eliminando: %s
+Abrir el monitor del sistema
+La tecla Win izquierda cambia la distribución.
+Falló al iniciar el control de volumen: %s
+%.3f atm
+Zona no existente para WeatherInfo
+Seleccionar un color base para usar con todas las notas adhesivas
+Llovizna abundante
+Estadounidense IBM RS/6000
+Tipografía predeterminada para las notas nuevas
 Le queda un %d%% de la capacidad total de su batería.
-Para evitar perder su trabajo: • suspenda su portátil para ahorrar energía, • conecte su portátil a una fuente de alimentación externa, o • guarde los documentos abiertos y apague el portátil.
-Miniaplicación de inversiones
-Color de fondo del gráfico de uso de memoria
-La cadena que el usuario había seleccionado cuando se usó la miniaplicación por última vez. Esta cadena se mostrará cuando el usuario inicie la miniaplicación.
-¿Desea desconectarse?
-Llovizna
-Hoy
-Nota adhesiva
-Botón «Borrar»
-Pitar al mostrar un aviso
-Reproducir CD
-Estadounidense de 84 teclas
+Ajustes del visor
+Monitor de la bandeja de entrada
+Mapa de teclado canadiense de Sun
 Alt+Mayús. cambia la distribución.
-Mapa de teclado británico Type 4 de Sun
-5 días
-Quedan %d %s %d %s (%d%%)
-Un valor 0 significa mostrar la frecuencia de la CPU, 1 mostrar la frecuencia y las unidades y 2 mostrar un porcentaje en vez de la frecuencia.
-Algunos elementos del panel no estarán disponibles a partir de ahora
+Botón «Borrar»
+La batería se está agotando
+Estado de la batería desconocido
+Falló al mostrar la ayuda: %s
+¿Seguro que quiere vaciar todos los elementos de la papelera?
+Editar la paleta
+Propiedades de la nota adhesiva
+Precipitación desconocida
+La unidad en que medir la visibilidad.
+El tipo de texto a mostrar (si el texto está activado).
+Pedrisco con lluvia
+Hubo un error fatal al intentar cargar el tema.
+La tecla Mayús derecha cambia el grupo.
+Mapa de teclado español de Sun
+Mapa de teclado tailandés de Sun
+Niebla en los alrededores
+La batería está recargada completamente
+Esta utilidad muestra el estado actual del escalado de frecuencia de la CPU.
+Fuente: Yahoo! Finanzas (retraso de 15 minutos mínimo)

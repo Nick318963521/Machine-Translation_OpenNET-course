@@ -1,153 +1,122 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Mapa de teclado portugués
+Carga del disco
+Borrar todas
+Color del fondo, componente rojo
+Altura predeterminada para las notas nuevas
+Seleccione un color para la nota adhesiva
+La tecla Alt izquierda cambia la distribución.
+Pulse sobre este botón para los alrededores
+El componente azul del color de frente.
+La tecla Alt izquierda cambia la distribución.
+Mostrar el marco
+Mapa de teclado ruso de Sun
+El componente azul del color de fondo.
+Seleccione un error al usuario cuando la batería esté baja.
+%.1f km/h
+Mapa de teclado búlgaro de Sun
+Notificación de batería baja
+Usar el mapa del radar
+Información meteorológica de una zona.
+La tecla Alt izquierda cambia la distribución.
+Altura predeterminada para las notas nuevas
+Seleccione una tipografía predeterminada para la batería esté cargada.
+Carpeta en la lista de acciones
+Mapa de teclado sueco USB de Sun
+Añadir macro…
+Activar el gráfico de carga del disco
+Conectando con el proveedor de servicios de Internet
+Mapa de teclado portugués
+Usar la tipografía predeterminada para la tipografía predeterminada
+Reino Unido PC/AT
+Nubosidad dispersa
+Indicador del teclado
+Fábrica de la miniaplicación del teclado
+Lanzar el programa
+Activar el mapa de radar
+%d de %b / %H:%M
+Mapa de teclado portugués de Sun
+Monitoriza la condiciones meteorológicas actuales y los pronósticos
+La tecla Alt izquierda cambia la distribución.
+Color de línea de comandos
+Lista de cadenas que contienen las paletas disponibles.
+Indicador de la distribución del teclado georgiano
+El componente azul del color de frente.
+Mostrar el marco
+La unidad en la que gweather muestra información.
+Mapa de teclado bielorruso de Sun
+Niebla helada
+Un conjunto de marcado telefónico
+%.1f km/h
+Caracteres mostrados al iniciar la miniaplicación
+Indicador del teclado
+Mapa de teclado portugués de Sun
+Seleccione un color para la nota adhesiva
+usuario cuando la batería esté cargada.
+Notificación de batería esté cargada.
+Sun (no PC) húngaro Tipo5 latino 2
+Mapa de teclado turco
+Color de las notas adhesivas
+%s: silenciado
+Color de las notas adhesivas
+Abrir papelera
+Informe del pronóstico
+Seleccione una tipografía para la nota adhesiva
+Las notas vacías siempre se borran sin confirmación.
+Borrar todas
+Mapa de teclado portugués
+Las notas adhesivas
+Carga media
+Sun (no PC) húngaro Tipo5 latino 1
+Mostrar el tiempo restante
+Mapa de teclado del Sun
+Sun (no PC) húngaro Tipo5 latino 2
+Inversiones no pudo conectar con Yahoo! Finance
+Color de la tipografía:
+Monitor de frecuencia de la CPU
+Mostrar el marco
+Pulse para entrar en Weather.com
+Mapa de teclado portugués
+Preferencias de las notas adhesivas
+La tecla Ctrl izquierda cambia la distribución.
+Mapa de teclado suizo
+Mapa de teclado abundante
+Inversiones no pudo conectar con Yahoo! Finance
+%.2f inHg
+Seleccione una conexión de marcado telefónico
+Húngaro 105 teclas
+Hubo un error al mostrar la ayuda: %s
+Mapa de teclado Sun
+Quitando: %s
+Abrir del sistema
+La tecla Mayús izquierda cambia la distribución.
+Cambio promedio: %s
+Mapa de teclado portugués
+Situación de la zona
+Escoja un color para la memoria compartida
+Llovizna abundante
+Estadounidense Sun tipo 5
+Altura predeterminada para las notas nuevas
+Chorros de la batería
+Configuración del visor
+Monitor de bandeja de entrada (obsoleto)
+Mapa de teclado portugués de Sun
+La tecla Alt izquierda cambia la distribución.
+Borrar todas
+La extensión XKB no está desbloqueada.
+Notificación de batería
+Hubo un error al mostrar la ayuda: %s
+Vaciar desde Yahoo!
+Mapa de teclado paleta
+Propiedades predeterminadas de la nota adhesiva
+Sun (no PC) húngaro Tipo5 latino 2
+La unidad en la que medir la temperatura.
+La unidad en la que gweather muestra información.
+Mapa de teclado portugués
+Seleccione un error al mostrar la batería esté baja.
+La tecla Mayús izquierda cambia el grupo.
+Mapa de teclado español de Sun
+Mapa de teclado tailandés de Sun
+Tormenta de polvo en los alrededores
+Esta nota adhesiva
+Tormenta de la frecuencia de la CPU como frecuencia
+Url para las notas nuevas

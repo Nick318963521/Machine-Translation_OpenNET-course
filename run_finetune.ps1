@@ -19,7 +19,7 @@ function Convert-ToPosixPath {
 }
 
 if ($Preset -eq "quick") {
-    if (-not $TrainSteps.HasValue) { $TrainSteps = 200 }
+    if (-not $TrainSteps.HasValue) { $TrainSteps = 800 }
     if (-not $ValidSteps.HasValue) { $ValidSteps = 100 }
     if (-not $SaveCheckpointSteps.HasValue) { $SaveCheckpointSteps = 200 }
     if (-not $BatchSize.HasValue) { $BatchSize = 8 }
@@ -109,8 +109,8 @@ $yamlLines = @(
     "",
     "src_seq_length: 120",
     "tgt_seq_length: 120",
-    "src_vocab_size: 16000",
-    "tgt_vocab_size: 16000",
+    "src_vocab_size: 8000",
+    "tgt_vocab_size: 8000",
     "",
     "encoder_type: transformer",
     "decoder_type: transformer",
@@ -124,8 +124,8 @@ $yamlLines = @(
     "dropout: 0.1",
     "",
     "optim: adam",
-    "learning_rate: 2.0",
-    "warmup_steps: 4000",
+    "learning_rate: 1.0",
+    "warmup_steps: 400",
     "decay_method: noam",
     "label_smoothing: 0.1",
     "param_init_glorot: true",
@@ -151,7 +151,7 @@ if (Test-Path $BaselineModel) {
 Set-Content -Path $ConfigPath -Value (($yamlLines -join "`n") + "`n") -Encoding UTF8
 
 Write-Host "Step 2: generate plain-text vocab files"
-& $PythonExe -c "from collections import Counter; from pathlib import Path; import sys; src=Path(sys.argv[1]); tgt=Path(sys.argv[2]); src_out=Path(sys.argv[3]); tgt_out=Path(sys.argv[4]); c1=Counter(); c2=Counter(); [c1.update(line.strip().split()) for line in src.open('r', encoding='utf-8') if line.strip()]; [c2.update(line.strip().split()) for line in tgt.open('r', encoding='utf-8') if line.strip()]; src_out.parent.mkdir(parents=True, exist_ok=True); tgt_out.parent.mkdir(parents=True, exist_ok=True); f1=src_out.open('w', encoding='utf-8', newline='\n'); [f1.write(f'{tok}\t{cnt}\n') for tok, cnt in c1.most_common()]; f1.close(); f2=tgt_out.open('w', encoding='utf-8', newline='\n'); [f2.write(f'{tok}\t{cnt}\n') for tok, cnt in c2.most_common()]; f2.close()" $TrainSrc $TrainTgt $SrcVocab $TgtVocab
+& $PythonExe -c "from collections import Counter; from pathlib import Path; import sys; src=Path(sys.argv[1]); tgt=Path(sys.argv[2]); src_out=Path(sys.argv[3]); tgt_out=Path(sys.argv[4]); specials=['<blank>','<s>','</s>','<unk>']; c1=Counter(); c2=Counter(); [c1.update(line.strip().split()) for line in src.open('r', encoding='utf-8') if line.strip()]; [c2.update(line.strip().split()) for line in tgt.open('r', encoding='utf-8') if line.strip()]; src_out.parent.mkdir(parents=True, exist_ok=True); tgt_out.parent.mkdir(parents=True, exist_ok=True); f1=src_out.open('w', encoding='utf-8', newline='\n'); [f1.write(f'{sp}\t1000000\n') for sp in specials]; [f1.write(f'{tok}\t{cnt}\n') for tok,cnt in c1.most_common() if tok not in specials]; f1.close(); f2=tgt_out.open('w', encoding='utf-8', newline='\n'); [f2.write(f'{sp}\t1000000\n') for sp in specials]; [f2.write(f'{tok}\t{cnt}\n') for tok,cnt in c2.most_common() if tok not in specials]; f2.close()" $TrainSrc $TrainTgt $SrcVocab $TgtVocab
 if ($LASTEXITCODE -ne 0) { throw "vocab generation failed." }
 
 Write-Host "Step 3: train transformer model"

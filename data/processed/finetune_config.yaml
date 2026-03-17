@@ -13,14 +13,14 @@ data:
 save_model: E:/a_DA/Machine-Translation_OpenNET/models/finetuned_model
 save_checkpoint_steps: 200
 keep_checkpoint: 8
-train_steps: 200
+train_steps: 800
 valid_steps: 100
 report_every: 50
 
 src_seq_length: 120
 tgt_seq_length: 120
-src_vocab_size: 16000
-tgt_vocab_size: 16000
+src_vocab_size: 8000
+tgt_vocab_size: 8000
 
 encoder_type: transformer
 decoder_type: transformer
@@ -34,8 +34,8 @@ transformer_ff: 1024
 dropout: 0.1
 
 optim: adam
-learning_rate: 2.0
-warmup_steps: 4000
+learning_rate: 1.0
+warmup_steps: 400
 decay_method: noam
 label_smoothing: 0.1
 param_init_glorot: true

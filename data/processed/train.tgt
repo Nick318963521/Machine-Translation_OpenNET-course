@@ -1,713 +1,565 @@
-Mapa de teclado danés USB
-Usa unidades métricas en vez de las unidades inglesas.
-Tormenta de nieve
-Dirección
-3 meses
-Mapa de teclado italiano de Sun
-Granizada abundante
-Mapa de teclado ruso plano
-Miniaplicación del panel para reproducir CDs de sonido
-Indica si se debe forzar el uso del color y la tipografía predeterminada en todas las notas
-Monitoriza la carga restante de un portátil
-Mapa del teclado holandés de Sun
-Notificaciones
-Notificaciones
-GCONFDISABLEMAKEFILESCHEMAINSTALL está activado, no se están instalando esquemas
-MACD
-Informe del pronóstico
-Seleccionar una tipografía para usar en todas las notas adhesivas
-Ambas teclas Ctrl juntas cambian la distribución.
-Realizar autocompletado mediante histórico
-Escriba la divisa objetivo a la que se convertirán todas las acciones de la cotización.
-Cantidad
-Mapa de teclado sueco Type 4 de Sun
-Cenizas volcánicas
-Mapa de teclado italiano
-Precio
-Borrar las notas
-Disco
-Tiempo en segundos entre las actualizaciones del estado
-Indicadores:
-Actualizar
-Mapa de teclado ruso
-No se pueden mover algunos elementos a la papelera, ¿quiere borrar estos inmediatamente?
-Disco duro
-Mapa de teclado sueco
-Mapa de teclado francés-canadiense 105 teclas
-Preferencias del teclado
-Color de la tipografía:
-No se pudo crear libhalctx
-%s/s
-Un código de tres dígitos para obtener los mapas de radar desde weather.com, tal como los que se encuentran en http://svn.gnome.org/viewvc/libgweather/trunk/data/Locations.xml.in
-No se pueden mover algunos elementos a la papelera, ¿quiere borrar éstos inmediatamente?
-La batería se está agotando
-Actualizado el %s
-Fábrica de la miniaplicación Mini-Commander
-El componente verde del color de fondo.
-Añadir una macro nueva
-Iniciar el monitor del sistema
-Abrir el control de volumen
-insertar carácter especial %s
-El color del gráfico para la memoria compartida
-Kelvin
-Color de fondo del gráfico de carga de CPU
-Teclado turco «F»
-El color del gráfico para el uso de memoria relacionado con el usuario
-Pitar para las advertencias
-Este - Noreste
-Carpeta en la que se encuentra el tema
-Vista de la zona
-Para los paneles horizontales, el ancho de los gráficos en píxeles, para los paneles verticales, esto es la altura de los gráficos.
-El tipo de texto a mostrar (si el texto está activado).
-Niebla muy gruesa
-Monitor de la bandeja de entrada
-Desconectar
-Oeste
-El color del gráfico para la actividad de la CPU relacionada con el sistema
-Mostrar un tirador para que la miniaplicación pueda desprenderse del panel.
-Niebla en los alrededores
-Niebla helada
-Activar el gráfico de carga de memoria
-Húngaro 105 teclas latino 1
-Escritura
-Esto no se puede deshacer.
-Cambio promedio: %s
-Color de la tipografía:
-Bolitas de hielo
-timezone
-inHgatmospheres
-Reproductor de CD
-Presión atmosférica:
-Mapa de teclado griego
-Condiciones actuales
-Mapa de teclado portugués Type 4 de Sun
-Estadounidense DEC 450
-Estado de accesibilidad del teclado
-Compartida
-Fábrica para «Estado de la batería»
-Eliminando elemento %s de %s
-Ayuda
-Backend de HAL activado.
-Altura:
-Gráfica descargada
-Activar el mapa de radar
-Usar dirección personalizada para el mapa de radar
-Fábrica miniaplicación de Notas adhesivas
-Buscar:
-Conectar
-Utilidad de estado de la batería
-Url para el mapa del radar
-Pronóstico no disponible actualmente para este lugar.
-El componente azul del color de frente.
-Si elije vaciar la papelera, todos los elementos dentro de ella se borrarán y se perderán para siempre. También puede borrarlos separadamente.
-Remolino de polvo
-Actualizar los datos automáticamente
-Comando:
-Propiedades predeterminadas de la nota
-(montado)
-Macedonio
-Un valor índice, el NASDAQ Composite (^IXIC) por ejemplo, se basa en un número de cotizaciones. Esta opción permite mostrar también las acciones de la cotización en las que se basa un índice.
-Monitoriza la condiciones meteorológicas actuales y los pronósticos
-El color del gráfico para la actividad de salida de la red
-Unidad de velocidad del viento:meters per second
-Configuración del monitor
-La unidad en la que medir la temperatura.
-El intervalo en segundos entre las actualizaciones automáticas.
-Húngaro 101 teclas latino 1
-No se puede obtener el esquema para %s: %s
-Url para el mapa del radar
-Último
-Distribución georgiano rusa
-No hay ninguna batería presente
-Fábrica para convertir miniaplicaciones en obsoletas
-Indicador
-Intervalo de actualización
-La tecla Alt derecha cambia la distribución.
-Mapa de teclado español
-Forzar los colores y tipografías predeterminados en las notas
+Nieve ligera
 Llovizna ligera
-Color predeterminado para las notas adhesivas nuevas. Este podría estar en especificación hexadecimal html, por ejemplo «#30FF50».
-Ganancia
-Apariencia
-Desactivar
-Carga del disco
-Cascada de nieve
-Nivel de valor rojo
-Escala Beaufort
-Seleccione una zona:
-Fábrica de la miniaplicación de estado de accesibilidad del teclado
-Mapa de teclado portugués brasileño USB de Sun
-Botón para actualizar
-Usado
-Visibilidad:
-Fábrica de la miniaplicación Geyes
-Húngaro 105 teclas latino 2
-Tormenta de arena
-Ocioso
-Advertir cuando quede poco tiempo en vez de bajo porcentaje
-Nieve
-Indica si se debe utilizar el color predeterminado del sistema
-Norte - Noreste
-Carga CPU
-Fábrica de la miniaplicación GWeather
-Tamaño
-Teclado húngaro PC/AT 101
-Vaciar desde arriba
-El componente azul del color de fondo.
-Tormenta de arena abundante
-Unidad de presión atmosférica:kiloPascals
-Pocas bolitas de hielo
-Granizo pequeño
-Ver los detalles del pronóstico
-Si elije vaciar la papelera, todos los elementos dentro de ella se borrarán y se perderán para siempre. También puede borrarlos por separado.
-Slow stoch
-Hora de observación desconocida
-Junto a cada acción se muestra un pequeño gráfico. La obtención de cada gráfico provoca tráfico de red. Ocultar estos gráficos reduce la demanda de ancho de banda de la red significativamente.
-Tipografía predeterminada para las notas nuevas
-Detalles
-La tecla Menú cambia la distribución.
-Inversiones
-La línea de comandos ha sido desactivada por su administrador del sistema
-Define si se debe utilizar la tipografía predeterminada del sistema
-Uno o más elementos del panel (también llamados miniaplicaciones) ya no están disponibles en el escritorio GNOME.
-Control de volumen (obsoleto)
-Botón para la actualizar
-No se pudo descargar la gráfica
-Georgiano latino
-Bloquear la nota
-Ajustes del monitor
-Fondo
-Hubo un error fatal al intentar cargar el tema.
-Mapa de teclado británico USB Sun
-Volumen guardado para restaurar durante el inicio
-Activar el gráfico de carga de CPU
-Memoria
-Oeste - Suroeste
-Un cubo de papelera que vive en su panel. Puede usarlo para ver la papelera o arrastrar y soltar elementos en la papelera.
-Búferes
-Botón de intervalo de actualización
-Control de volumen
-Editar
-Falló al iniciar el control de volumen: %s
-Estadounidense internacional
-General
-Seleccione una tipografía para la nota
-Mapa de teclado tailandés de Sun
-Este - Sureste
-Un indicador de carga del sistema
-Obtener un mapa de radar con cada actualización.
-Monitor de carga de la batería
-Cacheada
-Usuario
-Indicador de la distribución del teclado para GNOME
-Montador de discos
-Caracteres mostrados al iniciar la miniaplicación
-La tecla Ctrl izquierda cambia el grupo.
-Mapa de teclado laosiano
-%a %d de %b / %H:%M
-Fuente: Yahoo! Finanzas (retraso de 15 minutos mínimo)
-%.1f millas
-Borrar todas
-Llovizna moderada
-Algunas nubes
-Actualizar
-Mostrar un marco alrededor de la miniaplicación.
-Mapa de teclado suizo francés
-Mapa de teclado bielorruso de Sun
-El color del gráfico para el promedio de carga
-Seleccionar si ocultar todas las notas al seleccionar en el escritorio
-Complementos
-Especifica la altura predeterminada (en píxeles) de las notas nuevas
-Línea de comandos
-Color de tipografía, componente azul
-Avisar cuando la carga de la batería baje hasta:
-Lluvia moderada
-Zona
-Por omisión, las notas adhesivas utilizan la fecha actual como título al crearse. Este es el formato utilizado. Cualquier formato que pueda ser analizado por strftime() es válido.
-Mapa de teclado estonio
-Miniaplicación para montar y desmontar volúmenes de bloques.
-La url personalizada desde donde recuperar un mapa de radar.timezone
-%.1f °F
-Intervalo del tiempo de espera para comprobar el estado de los puntos de montaje
-%.2f inHg
-Fábrica para miniaplicación selector de caracteres
-Prioridad
-Lanzar el programa
-Mapa de teclado estadounidense Tipo 5 de Sun
-%H:%M
-Control de volumen...
-Húngaro 101 teclas latino 2
-Refrescar
-Ajustes del visor
-Nieve abundante
-El color del gráfico para las escrituras de disco
-Distribución del teclado
-Mapa de teclado italiano USB de Sun
-Bollinger
-Apariencia:
-La carga media del sistema es del %0.02f
-Opciones
-Desmontar %s
-Notificación de batería
-Copyright © 1999-2005 por S. Papadimitriou y otros
-Mostrar las unidades de la frecuencia
-Pulse sobre este botón para iniciar el navegador
-Notificar al usuario cuando la batería esté baja.
-Cambio %
-----
-Vela
-Anchura predeterminado para las notas nuevas
-Ir a la papelera
-El sistema está funcionando con CA
-Carga
-Mostrar notas adhesivas
-Mapa de teclado francés
-%d %s %d %s para completar la carga (%d%%)
-Activar el gráfico de carga de la red
-Cm/s" (meters per second), "km/hmph" (miles per hour) and "knots
-Logarítmica
-Sin soporte para escalado de frecuencia
-Estado de bloqueo de las notas adhesivas
-Información meteorológica de una zona.
-Condiciones:
-Mapa de teclado lituano de Sun
-Sur - Sureste
-Estadounidense de 105 teclas (con teclas Windows)
-¿Eliminar el grupo de cotizaciones completo?stock group
-Histórico vacío
-Gráfica financiera - %s
-Color del fondo, componente azul
-Actualizar automáticamente cada:
-Determina si la miniaplicación actualiza automáticamente sus estadísticas meteorológicas o no.
-Mapa de teclado servio
-Pequeña tormenta de granizo
-Etiqueta
-Para desconectarse de su proveedor de servicios de Internet, necesita privilegios de administrador
-Mapa de teclado islandés de Sun
-Mapa de teclado lituano
-Error desconocido
-%s: %d%%
-Lista del histórico
-Mapa de teclado mongol
-Insertar carácter especial
-La unidad en la que medir la presión.
-Mapa de teclado danés
-Color de tipografía, componente verde
-Error: %s
-Anchura:
-Macros
-Colores
-Mapa de teclado ruso de Sun
-Alt+Control cambia la distribución.
-Fahrenheit
-Mapa de teclado francés USB de Sun
-Color del fondo:
-Lluvia ligera
-No se pudo encontrar Nautilus
-No se pudo lanzar la herramienta de configuración de red
-GB 102 teclas
-Procesador
-milisegundos
-Variable
-Llovizna abundante
-Estado de AccessX
-Mapa de teclado portugués de Sun
-Mapa de teclado japonés
-Ganancia %
-Activar
-Para evitar perder su trabajo: • enchufe su portátil a una fuente de alimentación externa, o • guarde los documentos abiertos y apague el portátil.
-Corriente de arena
-Aún no ha introducido ninguna información de acciones
-Mapa de teclado español de Sun
-Lista de entradas de GConfValue que contienen cadenas para los patrones de macro.
-Carga de memoria
-----
-Tiempo en segundos entre las actualizaciones del estado
-Control de volumen para su panel de GNOME.
-Batería recargada completamente
-Altura del monitor del sistema:
-Si esta opción esta habilitada los colores y tipografías personalizadas que han sido asignados a las notas individuales serán ignorados.
-Si esta opción está desactivada, se puede utilizar una tipografía personalizada como tipografía predeterminada para todas las notas adhesivas.
-El color del gráfico para la actividad de entrada la red
-Apariencia:
-Oeste - Noroeste
-%s: silenciado
-Fast stoch
-(desmontado)
-Gráfica financiera
-Espacio de intercambio
-El control de volumen no encontró ningún elemento y/o dispositivo que controlar. Esto significa que no tiene los complementos correctos de GStreamer instalados o que no tiene una tarjeta de sonido configurada.
-Nubosidad dispersa
-No se puede ejecutar «%s»
-Grupo de cotizaciones
-Indicador del teclado
-Eliminando: %s
-Añadir macro…
-Usar unidades métricas
-Indicador del teclado (%s)
-Gráfico
-Cambiar la frecuencia de escalado de la CPU
-Nieve abundante
-Visor
-Granizada ligera
-No puede especificar patrones duplicados
-Neblina
-LEMDDEFAULTZONE
-Mapa de teclado armenio de Sun
-Mapa de teclado estadounidense USB de Sun
-Cotizaciones
-Mapa de teclado árabe
-Mapa de teclado sueco de Sun
-Mapa de teclado hebreo de Sun
-Local
-Línea de comandos
-Unidad de distancia
-Batería vertical (pequeña)
-Puede quitar el control de volumen del panel pulsando con el botón derecho sobre el icono del altavoz en el panel y seleccionando «Quitar del panel» del menú.
-Una zona única para la ciudad, tal como se encuentra en http://svn.gnome.org/viewvc/libgweather/trunk/data/Locations.xml.in
-Niebla dispersa
-Pulse sobre este botón para la lista de comandos anteriores
-Control de volumen desconocido %d
-Mapa de teclado mongol alt
-Mapa de teclado canadiense de Sun
-mmHginches of mercury
-Lista de paletas disponibles
-mmHgm" (meters), "km" (kilometers) and "mi
-La ciudad para la que gweather muestra información.
-No hay ninguna batería
-Tipografía:
-Bruma
-No se pudo contactar con el servidor. El equipo está apagado o los servidores están caídos. Pruebe de nuevo más tarde.
-Seleccione una tipografía predeterminada para la nota adhesiva
-Esta utilidad muestra el estado actual del escalado de frecuencia de la CPU.
-Silenciar
-Miniaplicación del panel de GNOME que permite seleccionar caracteres que no son accesibles directamente con el teclado. Distribuido bajo la Licencia Pública General GNU.
-Usar el color predeterminado
-El color del gráfico para la actividad de la CPU relacionada con el usuario
-Polvo
-Formato de fecha del título de la nota
-Mapa de teclado letón de Sun
-Coordenadas de la zona
-Ruso cirílico
-Patrón
-Esta utilidad muestra el estado de la batería de su portátil.
-Direcciones:
-Comando
-Vaciar papelera
-Esta utilidad muestra la frecuencia actual de la CPU
-Tiempo desconocido, (%d%%) restante
-La extensión XKB no está activada
-Color de fondo del gráfico de carga del sistema
-Pulse para añadir una paleta nueva
-Preferencias del monitor de frecuencia de la CPU
-Escriba un comando aquí y GNOME lo ejecutará por usted
-Tormenta de arena en los alrededores
-Mostrar la frecuencia de la CPU como frecuencia
-mbmillibars of mercury
-Mostrar el tiempo restante
-Mapa de teclado alemán
-Mostrar distribución actual
-Copyright © Sergey V. Udaltsov 1999-2004
-Falló al acceder a las fuentes de configuración: %s
-Mapa de teclado portugués brasileño de Sun
-Montar %s
-(muestra una imagen única para el estado y la carga)
-Previsión meteorológica
-Miniaplicación del panel de GNOME para seleccionar caracteres que no están en el teclado. Distribuido bajo la Licencia Pública General GNU.
-m/skilometers per hour
-Estilo de la gráfica:
-Autorefrescar
-Monitoriza la calidad de un enlace de red inalámbrico
-Intenta autocompletar un comando desde el historial de comandos introducidos.
-Activar el gráfico de carga de intercambio
-Sensación térmica:
-Nota: Las cotizaciones están retrasadas al menos 15 minutos. Fuentes: Yahoo!
-Estadounidense PC/AT 101
-Corriente de nieve
-Vasco
-Una aplicación del panel para monitorizar la meteorología local.
-El componente rojo del color de fondo.
-Granizada moderada
-Usar los colores del tema predeterminado
-Color del fondo para el gráfico de carga de disco
-Monitor de frecuencia de la CPU
-Zona mayor más próxima, como una capital, tal como se encuentra en http://svn.gnome.org/viewvc/libgweather/trunk/data/Locations.xml.in
-Directorio en el cual se encuentra situado el tema
-Inválidoblowing" "shallow" "partial
-Actualmente no hay disponible ninguna cotización de acciones
-Mapa de teclado francés de Sun
-Teclas muertas portugués
-Los ojos miran en la dirección del puntero del ratón
-Si esta opción está activada, seleccionar el escritorio de cualquier forma ocultará automáticamente todas las notas abiertas.
-Lluvia
-Ha fallado la obtención
-hPamillibars
-Notificar al usuario cuando la batería esté cargada.
-Ocultar notas
-Lista de comandos de macro
-Seleccione un color para la nota
-Lista de paletas
-Pitar para los avisos
-Mostrar el mapa de radar
-¿Desea conectarse?
-Pronóstico
-Polaco
-Pedrisco con lluvia
-Sistema
-Ha ocurrido un error al ejecutar «%s» : %s
-Seleccione el dispositivo y pista para controlar.
-Mapa de teclado turco azerbaijaní de Sun
-Un juego de ojos para el panel de GNOME. Siguen el movimiento del ratón.
-Usar los colores predeterminados del tema
-Notificar al usuario cuando la batería esté llena.
-etiqueta
-Actualizado el %slast price
-Ya no se utiliza
-La unidad en que medir la velocidad del viento.
-Si esta opción está desactivada se puede utilizar una color personalizado como el color predeterminado para todas las notas adhesivas.
-Usando GStreamer 0.10.
-Estado de la batería desconocido
-Tormenta de polvo
-Alemán
-Color de predeterminado para la tipografía
-Cielo:
-Km/hmiles per hour
-Lluvia fuerte
-Preferencias de meteorología
-Media
-Mapa de teclado español Type 4 de Sun
-Se requiere la contraseña de «root»
-Cerrar nota
-Mapa de teclado suizo alemán de Sun
-Escala:
-Anchura de la miniaplicación
-Nubes dispersas
-Batería cargada al (%d%%)
-Tomboy (actualización transparente de notas adhesivas)
-Editar la paleta
-Mapa de teclado macedonio de Sun
-Establecer el valor predeterminado de lista para %s
-Fábrica de miniaplicaciones nulas
-Lista de entradas de GConfValue que contienen cadenas para las entradas históricas.
-Mapa de teclado búlgaro de Sun
-Mapa de teclado ucraniano de Sun
-%.2f mb
-Seleccione un tema:
-Seguimiento de inversiones.
-Mostrar notas adhesivas
-Suizo francés
-Crea, muestra y administra notas adhesivas en el escritorio
-Granizo con lluvia
-Color predeterminado para la tipografía de las notas adhesivas nuevas. Este podría estar en especificación hexadecimal html, por ejemplo «#000000».
-Fábrica para crear la miniaplicación de inversiones.
-El color del gráfico para el uso local de la red
-Color del fondo, componente roja
-Usar el color del tema del sistema
-Mapa de teclado polaco de Sun
-Lista de cadenas que contienen las paletas disponibles.
-Suroeste
-Usa los colores del tema en lugar de los personalizados.
-Barra de escritorio (actualización transparente de Mini-Commander)
-Color de predeterminado para las notas nuevas
-La batería está recargada completamente
-Actualizando…
-Media de movimiento exponencial:
-Pulse para entrar en Weather.com
-Borrar la nota…
-Bolitas de hielo moderadas
-Redimensionar la nota
-Meteorología de GNOME
-5 años
-Mapa de teclado islandés
-Tiempo desconocido, (%d%%) hasta su carga
-Chorros de bolitas de hielo
-Cristales de hielo
-Mapa de teclado estadounidense Tipo4 de Sun
-Visitar weather.com
-Activar autocompletado basado en histórico
-Noruego
-Estadounidense de 101 teclas
-Borrar macro
-Backend legado (No-HAL) activado.
-Activar el mapa de radar
-Establece la CPU que monitorizar. En un sistema monoprocesador, no tiene que cambiarlo.
-miK" (Kelvin), "C" (Celsius) and "F
-Indica si ocultar todas las notas cuando el escritorio está seleccionado
-Especifique un título para la nota
-Preferencias de Invest
-Ciudad:
-Mapa de teclado georgiano
-Situación de la zona
-etiqueta
-Mapa de teclado inglés
-Aguaceros
-Comportamiento
-6 meses
-Especifica la anchura predeterminada (en píxeles) de las notas nuevas
 Especifica si las notas adhesivas son visibles en TODAS las áreas de trabajo del escritorio, o no.
-Pulse para borrar la paleta seleccionada
-Bloquear/Desbloquear la nota
-Define si se debe solicitar una confirmación cuando se está borrando una nota
-Introduzca el URL
-Salida
-Lluvia helada
-Grupos
-Vista compacta
-Escalado de frecuencia de la CPU no soportado
-Cambio promedio de las acciones %%: %+.2f%%
-Ojos
-%.1f K
-Hubo un error al mostrar la ayuda: %s
-%.1f mph
-Un conjunto de globos oculares para su panel
-Cubierto de nubes
-Este
-%.1f mmHg
-Comisión
-Introduzca la contraseña
-Mini-Commander
-Mostrar las cotizaciones de los valores índice
-Mapa de teclado alemán Type 4 de Sun
-Se necesitan privilegios para cambiar la frecuencia de escalado de la CPU
-Última actualización:
-Ocultar las notas cuando el escritorio está pulsado
-(dos imágenes: una para el estado, otra para la carga)
-Mapa de teclado británico de Sun
-Esta nota está desbloqueada.
-Chubasco
-Error de HAL
-Backend de HAL activado.
-Línea
-%.2f kPa
-Chorros de bolitas de hielo
-Portugal
-Amanecer:
-Mapa de teclado eslovaco
-Mapa de teclado Type-4 de Sun
-Mapa de teclado finlandés de Sun
-Tormenta de polvo en los alrededores
-Una aplicación del panel para monitorizar la meteorología local.
-CPU que monitorizar
-Configuración del visor
-Viento con arena
-Monta dispositivos y discos locales
-Preferencias de la paleta de caracteres
-Mapa de teclado eslovaco de Sun
-Fábrica para «Estado de la batería»Warn when battery charge drops to: [XX] percent
-Ocurrió un error al lanzar el visor de ayuda: %s
-Error al resucitar Nautilus: %s
-Mapa de teclado turco de Sun
-Comprueba que la ha tecleado correctamente y que no ha activado la tecla «Bloq. Mayús.»
-La url personalizada desde donde recuperar un mapa de radar.
-Cubierto de nubesblowing" "shallow" "partial
-Mapa de teclado japonés Type-4 de Sun
-mphknots
-Cielo despejado
-Monitor de bandeja de entrada (obsoleto)
-Mapa de radar
-Las notas vacías siempre se borran sin confirmación.
-Divisa
-Esta miniaplicación añade una línea de comandos al panel
-Seleccione un color predeterminado para la nota adhesiva
-Conexión activa, pero no se pudo obtener el tiempo de conexión
-minutos restantes
-Botón «Editar»
-Carga media
-Granizada
-Ocurrió un error al lanzar el diálogo de preferencias del teclado: %s
-por cientoWarn when battery charge drops to: [XX] minutes remaining
-Espera E/S
-Lista de entradas de GConfValue que contienen cadenas para los comandos de macro.
-Mapa de teclado servio estándar de Sun
-Fábrica de la miniaplicación montador de discos
-Zona de radar
-Meteorología para una ciudad
-Mayús+Bloq Mayús cambia la distribución.
-No recibirá este mensaje de nuevo.
-Mapa de teclado portugués
-Mapa de teclado checo de Sun
-Zona no existente para WeatherInfo
-Falló al mostrar la ayuda: %s
-%s: %u%% en uso por programas %u%% en uso como caché
-Sureste
-%0.1f nudos
-Insertar «%s»
-Entrada
-Preferencias del monitor de carga la batería
-Color de fondo del gráfico de red
-Tasa de refresco de la miniaplicación en milisegundos
-Información meteorológica de una zona
-Carga de red
-Mostrar la frecuencia de la CPU como porcentaje
-Volúmenes
-Comportamiento del cambio de distribución
-Seleccionar un color base para usar con todas las notas adhesivas
-El color del gráfico para el uso de intercambio relativo al usuario
-Desde:
-Húngaro latino 1
-Paletas disponiblesPILCROW SIGN
-Debe especificar un patrón y un comando
-%.1f °C
-Seleccionar si se debe forzar el estilo predeterminado en todas las notas
-Lineal
-Histórico
-Mostrar el marco
-Unidad de velocidad
-Mostrar notas adhesivas
-Avisar cuando quede poco tiempo en vez de bajo porcentaje
-Indicador de distribución del teclado
-Altura predeterminada para las notas nuevas
-La contraseña introducida no es válida
-Tamaño del gráfico
-Abrir el diálogo de preferencias del teclado
-Teclado turco «Q»
-Mapa de teclado sueco USB de Sun
-Sur
-Preferencias de Geyes
-El componente rojo del color de frente.
-Abrir el monitor del sistema
-Adherencia del área de trabajo de las notas adhesivas
-Mapa de teclado japonés de Sun
-Lista de patrones de macro
-Área de trabajo no pegadiza para las notas adhesivas
-Buscar siguiente
-Acerca de
-Noroeste
-Búlgaro cirílico
-Miniaplicación de la papelera
-Aguanieve
-Tailandés
-Anchura
-Papelera
-Si esta opción esta deshabilitada se puede utilizar una color personalizado como el color predeterminado para todas las notas adhesivas.
-Mapa de teclado checo
-La tecla Alt izquierda cambia la distribución.
-%.3f atm
-Muestra el estado actual de las características de accesibilidad del teclado
-Para conectarse a su proveedor de servicios de Internet, necesita privilegios de administrador
-Esta nota está bloqueada.
-Notificarme cuando la batería esté recargada completamente
-Altura predeterminada en píxeles para las notas adhesivas nuevas.
+La url personalizada desde donde recuperar un mapa de radar.timezone
+Actualizar automáticamente cada:
+¿Borrar todas las notas adhesivas?
+Llovizna moderada
+Junto a cada acción se muestra un pequeño gráfico. La obtención de cada gráfico provoca tráfico de red. Ocultar estos gráficos reduce la demanda de ancho de banda de la red significativamente.
 Miniaplicación para activar y monitorizar una conexión de red de marcado telefónico.
-Esta miniaplicación de GNOME añade una línea de comandos al panel. Tiene completado de comandos, histórico de comandos, y macros cambiables.
-Carga de la batería baja
-La tecla Mayús derecha cambia el grupo.
-Norte - Noroeste
-Fuerza Beaufort %.1f
-Alemán suizo con Euro
-mmHg
-Abrir %s
-%d K
-Indica si se debe solicitar una confirmación cuando se está borrando una nota
-Bolitas de hielo abundante
-Tormenta de bolitas de hielo
-La tecla Mayús izquierda cambia el grupo.
-Modo para mostrar el uso de la CPU
-Humedad relativa:
-Splits
-Notificación de batería cargada
-Botón «Añadir»
-Notas adhesivas
-Preferencias de las notas adhesivas
-Esta nota está desbloqueada.
+Nieve moderada
+Activar autocompletado basado en histórico
+Copyright © 1999-2005 por S. Papadimitriou y otros
+Corriente de arena
+Media de movimiento exponencial:
+Monitor de la batería
+Niebla parcial
+Mapa de teclado islandés
+Mapa de teclado servio estándar de Sun
+Tomboy (antes Notas adhesivas)
+Un valor 0 significa mostrar la frecuencia de la CPU, 1 mostrar la frecuencia y las unidades y 2 mostrar un porcentaje en vez de la frecuencia.
+El componente verde del color de frente.
+Añadir paleta
+6 meses
+Abrir el control de volumen
+Estadounidense de 101 teclas
+Estadounidense de 84 teclas
+Fábrica de la miniaplicación Inversiones
+Mapa de teclado armenio de Sun
+Mapa de teclado suizo alemán de Sun
+Mostrar un marco alrededor de la miniaplicación.
+Mostrar la batería hacia arriba, más pequeña en el panel.
+Si esta opción está desactivada se puede utilizar una color personalizado como el color predeterminado para todas las notas adhesivas.
+Lluvia fuerte
+La tecla Ctrl izquierda cambia el grupo.
+Pulse para entrar en Weather.com
+%.1f mph
+Escoja un color
+Mapa de teclado portugués brasileño de Sun
+Quitando el elemento %s de %s
+Vaciar papelera
+Control+Mayús. cambia la distribución.
+Botón de intervalo de actualización
+Recursos monitorizados
+Color de fondo del gráfico de red
+Ciudad cercana
+Chorros de bolitas de hielo
+Altura predeterminada en píxeles para las notas adhesivas nuevas.
+Mapa de teclado eslovaco
+Usar unidades métricas
+Meteorología para una ciudad
+Insertar carácter especial
+Mapa de teclado mongol
+Monitor del módem
+Añadir macro…
+No hay elementos en la papelera
+Usar los colores del tema predeterminado
+Realizar autocompletado mediante histórico
+Actualizado el %s
+%.1f km/h
+Mapa de teclado suizo
+Monitor del sistema
+Backend legado (No-HAL) activado.
+Mapa de teclado británico de Sun
+Mapa de teclado portugués
+Húngaro 105 teclas latino 2
+Mapa de teclado laosiano
+Pulse para añadir una paleta nueva
+Muestra el estado del teclado cuando se usan las características de accesibilidad.
+Botón de intervalo de actualización
 No se pudo inicializar HAL: %s: %s
+Carga CPU
+Paleta de caracteres
+Seleccionar una tipografía para la nota
+Muestra el estado actual de las características de accesibilidad del teclado
+Copyright © Sergey V. Udaltsov 1999-2004
+Sun (no PC) húngaro Tipo5 latino 2
+Unidad de distancia
+Seleccione un color predeterminado para la nota adhesiva
+El componente rojo del color de fondo.
+Unidad de velocidad del viento:meters per second
+Volumen guardado para restaurar durante el inicio
+Mapa de teclado italiano USB de Sun
+El color del gráfico para la memoria del búfer
+Especifica si las notas adhesivas están bloqueadas (no editables) o no.
+Este - Noreste
+Si esta opción esta activada los colores y tipografías personalizadas que han sido asignados a las notas individuales se ignorarán.
+Mapa de teclado turco azerbaijaní de Sun
+%.2f inHg
+Oeste - Noroeste
+Ganancia %
+Mapa de teclado sueco de Sun
+Url para el mapa del radar
+Comportamiento del cambio de distribución
+No se puede iniciar el gestor de archivos Nautilus
+Monitor de bandeja de entrada (obsoleto)
+Mapa de teclado estonio de Sun
+Estado de AccessX
+Balance de las posiciones: %+.2flast price
+Para evitar perder su trabajo: • enchufe su portátil a una fuente de alimentación externa, o • guarde los documentos abiertos y apague el portátil.
+Granizo pequeño
+Lista del histórico
+Color de tipografía, componente verde
+Uno o más elementos del panel (también llamados miniaplicaciones) no están ya disponibles en el escritorio GNOME.
+Estado de bloqueo de las notas adhesivas
+Escala Beaufort
+La extensión XKB no está activada
+Pulse sobre este botón para iniciar el navegador
+Crea, muestra y administra notas adhesivas en el escritorio
+Preferencias del Control de volumen
+Mapa de teclado japonés de Sun
+Un código de tres dígitos para obtener los mapas de radar desde weather.com, tal como los que se encuentran en http://svn.gnome.org/viewvc/libgweather/trunk/data/Locations.xml.in
+Húngaro 105 teclas latino 1
+Fábrica de la miniaplicación del teclado
+Borrar la nota…
+El color del gráfico para la memoria compartida
+Mapa de teclado italiano de Sun
+Tormenta de arena en los alrededores
+Ocultar las notas cuando el escritorio está pulsado
+Si esta opción esta habilitada los colores y tipografías personalizadas que han sido asignados a las notas individuales serán ignorados.
+El color del gráfico para la actividad de la CPU relacionada con el usuario
+Seleccionar si las notas serán visibles en todas las áreas de trabajo
+Hubo un error al mostrar la ayuda: %s
+El color del gráfico para el uso local de la red
+%d %s %d %s para completar la carga (%d%%)
+Fábrica para crear la miniaplicación de inversiones.
+Mostrar la frecuencia de la CPU como frecuencia
+El sistema está funcionando con CA
+Reino Unido PC/AT
+Nubosidad dispersa
+Notificar al usuario cuando la batería esté cargada.
+Lista de comandos de macro
+Borrar todas
+Por omisión, las notas adhesivas utilizan la fecha actual como título al crearse. Este es el formato utilizado. Cualquier formato que pueda ser analizado por strftime() es válido.
+Mapa de teclado inglés
+Mostrar tiempo/porcentaje:
+%d °C
+Mapa de teclado japonés Type-4 de Sun
+Mapa de teclado portugués brasileño
+Define si se debe forzar el uso del color y la tipografía predeterminada en todas las notas
+Seleccione un color para la nota adhesiva
+Nota adhesiva
+Una aplicación del panel para monitorizar la meteorología local.
+Miniaplicación Mini-Commander
+Miniaplicación de la papelera
+Se requiere la contraseña de «root»
+%s: silenciado
+Un conjunto de globos oculares para su panel
+No se pueden mover algunos elementos a la papelera, ¿quiere borrar éstos inmediatamente?
+GCONFDISABLEMAKEFILESCHEMAINSTALL está activado, no se están instalando esquemas
+No se pueden mover los elementos a la papelera, ¿quiere borrarlos inmediatamente?
+Cambio promedio de las acciones %%: %+.2f%%
+Abrir papelera
+Intervalo de actualización
+Visitar weather.com
+Mapa de teclado alemán Type 4 de Sun
+Muestra el estado de las características AccessX como los modificadores bloqueadosdocumenters
+Búlgaro cirílico
+Bolitas de hielo
+Un valor índice, el NASDAQ Composite (^IXIC) por ejemplo, se basa en un número de cotizaciones. Esta opción permite mostrar también las acciones de la cotización en las que se basa un índice.
+Esta miniaplicación de GNOME añade una línea de comandos al panel. Tiene completado de comandos, histórico de comandos, y macros cambiables.
+Usar la tipografía del tema del sistema
+Cielo despejado
+No podrá modificar la frecuencia de su máquina. Su máquina puede estar mal configurada o no tener soporte hardware para el escalado de frecuencia de la CPU.
+El color del gráfico para las lecturas de disco
+Lista de paletas disponibles
+Cerrar nota
+Miniaplicación del panel para reproducir CDs de sonido
+Monitoriza la carga restante de un portátil
+No puede especificar patrones duplicados
+(muestra una imagen única para el estado y la carga)
+Mapa de teclado bielorruso de Sun
+Sensación térmica:
+Un monitor de carga del sistema capaz de mostrar gráficos para la CPU, RAM y del uso del espacio intercambio, además del tráfico de red.
+Ciudad: %s Cielo: %s Temperatura: %s
+Indica si ocultar todas las notas cuando el escritorio está seleccionado
+Un juego de ojos para el panel de GNOME. Siguen el movimiento del ratón.
+Anchura de la miniaplicación
+Lista de cadenas que contienen las paletas disponibles.
+Define si se debe utilizar el color predeterminado del sistema
+Lluvia helada
+Nieve abundante
+Botón para actualizar
+Seleccionar si se debe forzar el estilo predeterminado en todas las notas
+Ruso cirílico
+Color de fondo del gráfico de uso de memoria
+Distribución del teclado «%s»
+Montador de discos
+Fábrica de miniaplicaciones nulas
+Miniaplicación del panel de GNOME que permite seleccionar caracteres que no son accesibles directamente con el teclado. Distribuido bajo la Licencia Pública General GNU.
+%.1f °C
+Para los paneles horizontales, el ancho de los gráficos en píxeles, para los paneles verticales, esto es la altura de los gráficos.
+Ya no se utiliza
+Reproductor de CD (obsoleto)
+Color del fondo, componente verde
+Mapa de teclado esloveno
+Vista expandida
+El intervalo en segundos entre las actualizaciones automáticas.
+Directorio en el cual se encuentra situado el tema
+Activar el gráfico de promedio de carga
+Abrir %s
+Teclas muertas portugués
+Mapa de teclado español USB de Sun
+Abriendo gráfica
+Mapa de teclado tailandés
+Bloquear/Desbloquear la nota
+Mapa de teclado alemán
+Colocar las notas en todas las áreas de trabajo
+Conectando con el proveedor de servicios de Internet
+%.1f millas
+Una zona única para la ciudad, tal como se encuentra en http://svn.gnome.org/viewvc/libgweather/trunk/data/Locations.xml.in
+La tecla Mayús izquierda cambia el grupo.
+El color del gráfico para el uso de intercambio relativo al usuario
+5 años
+No hay ninguna batería presente
+No recibirá este mensaje de nuevo.
+Unidad de presión atmosférica:kiloPascals
+Seguimiento de inversiones.
+Escalado de frecuencia de la CPU no soportado
+Expulsar %s
+Indica si se debe utilizar el color predeterminado del sistema
+Eliminando elemento %s de %s
+Avisar cuando la carga de la batería baje hasta:
+Notificar al usuario cuando la batería esté baja.
+Cambio promedio de las acciones %%: %+.2f%%
+Estadounidense PC/AT 101
+%0.1f nudos
+Última actualización:
+Mapa de teclado portugués de Sun
+Tailandés Kedmanee
+Nieve abundante
+Fábrica miniaplicación de Notas adhesivas
+Intervalo de actualización del monitor del sistema:
+Bolitas de hielo moderadas
+Grupo de cotizaciones
+Backend de HAL activado.
+Histórico vacío
+Esto elimina todas las cotizaciones de este grupo de cotizaciones. ¿Realmente quiere quitar este grupo de cotizaciones?
+Lista de entradas de GConfValue que contienen cadenas para los patrones de macro.
+Para desconectarse de su proveedor de servicios de Internet, necesita privilegios de administrador
+No se puede obtener el esquema para %s: %s
+No hay ninguna batería
+Mapa de teclado búlgaro
+Ha ocurrido un error al ejecutar «%s» : %s
+Mapa de teclado macedonio de Sun
+Preferencias del monitor de frecuencia de la CPU
+Símbolo del ticker:
+Debe especificar un comando
+Color predeterminado para la tipografía de las notas adhesivas nuevas. Este podría estar en especificación hexadecimal html, por ejemplo «#000000».
+%.1f km
+Granizo con lluvia
+Cambio %
+Mapa de teclado finlandés de Sun
+Fábrica para convertir miniaplicaciones en obsoletas
+Situación de la zona
+Tormenta de polvo en los alrededores
+Lista de patrones de macro
+Establece la CPU que monitorizar. En un sistema monoprocesador, no tiene que cambiarlo.
+Esta utilidad muestra la frecuencia actual de la CPU
+Activar el gráfico de carga de disco
+Esta nota está bloqueada.
+El componente azul del color de frente.
+Húngaro 101 teclas latino 2
+Activar y monitorizar una conexión de marcado telefónico
+Mostrar el tiempo restante
+Entrada de paleta
+Seleccione una tipografía para usar en todas las notas adhesivas
+Preferencias de las notas adhesivas
+¿Desea desconectarse?
+Granizada abundante
+Mostrar el marco
+Llovizna helada
+Mapa de teclado georgiano
+Color de fondo del gráfico de carga de CPU
+Escriba un comando aquí y GNOME lo ejecutará por usted
+Sur - Suroeste
+Mapa de teclado español
+Monitoriza la condiciones meteorológicas actuales y los pronósticos
+Estadounidense Silicon Graphics 101-teclas
+Canal controlado por la miniaplicación. Sólo para configuraciones de OSS
+%.2f mb
+Reproductor de CD
+La tecla Alt izquierda cambia la distribución.
+Usando GStreamer 0.10.
+Falló al acceder a las fuentes de configuración: %s
+Usar la tipografía predeterminada
+Mapa de teclado checo
+El archivo de descripción del escritorio que ejecutar como el monitor del sistema
+Latitud y longitud de su zona expresada en DD-MM-SS[NS] DD-MM-SS[EW].
+Mapa de teclado servio
+Si elije vaciar la papelera, todos los elementos dentro de ella se borrarán y se perderán para siempre. También puede borrarlos separadamente.
+¿Desea conectarse?
+Puede quitar el control de volumen del panel pulsando con el botón derecho sobre el icono del altavoz en el panel y seleccionando «Quitar del panel» del menú.
+Batería vertical (pequeña)
+Informe del pronóstico
+Color de tipografía, componente azul
+No se pudo encontrar Nautilus
+Error al sincronizar los datos de configuración: %s
+Quitando: %s
+Vaciando la papelera
+No se pudo lanzar la herramienta de configuración de red
+Mapa de teclado lituano de Sun
+Área de trabajo no pegadiza para las notas adhesivas
+Condiciones actuales
+El componente rojo del color de frente.
+Desmontar %s
+Preferencias de la paleta de caracteres
+Indicador de la distribución del teclado para GNOME
+Mapa de teclado Reino Unido 105-teclas
+Unidad de presión
+Mapa de teclado Type-4 de Sun
+Humedad relativa:
+Fuerza Beaufort %.1f
+Preferencias del monitor del sistema
+Mapa de teclado hebreo
+Monitoriza la calidad de un enlace de red inalámbrico
+0 para ninguna etiqueta, 1 para porcentaje y 2 para tiempo restante.
+Corriente de nieve
+Cenizas volcánicas
+Color del fondo, componente azul
+Distribución del teclado
+Color de la tipografía:
+Activar el gráfico de carga de la red
+Control de volumen
+Fábrica para «Estado de la batería»
+(muestra una sola imagen para el estado y la carga)
+Unidad de temperatura
+Seleccione una zona:
+Color del fondo para el gráfico de carga de disco
+El control de volumen no encontró ningún elemento y/o dispositivo que controlar. Esto significa que no tiene los complementos correctos de GStreamer instalados o que no tiene una tarjeta de sonido configurada.
+Esto no se puede deshacer.
+Para conectarse a su proveedor de servicios de Internet, necesita privilegios de administrador
+Error al resucitar Nautilus: %s
+Nota nueva
+Estadounidense internacional
+Monitor de frecuencia de la CPU
+Inversiones no pudo conectar con Yahoo! Finance
+Monitor del buzón de entrada
+Gráfico y texto
+No se pueden mover algunos elementos a la papelera, ¿quiere borrar estos inmediatamente?
+Mapa de teclado japonés
+Define si se debe solicitar una confirmación cuando se está borrando una nota
+Modo para mostrar el uso de la CPU
+No se pudo abrir el documento de ayuda
+Mapa de teclado checo de Sun
+Uno o más elementos del panel (también llamados miniaplicaciones) ya no están disponibles en el escritorio GNOME.
+Teclado turco «Q»
+Seleccione una tipografía para la nota
+Lluvia ligera
+Fábrica de la miniaplicación Geyes
+Carga del disco
+Activar el gráfico de carga de CPU
+Mapa de teclado mongol alt
+Usa los colores del tema en lugar de los personalizados.
+Botón «Añadir»
+Error: %s
+Mapa de teclado mongol fonético
+Lista de paletas
+La cadena que el usuario había seleccionado cuando se usó la miniaplicación por última vez. Esta cadena se mostrará cuando el usuario inicie la miniaplicación.
+Se necesitan privilegios para cambiar la frecuencia de escalado de la CPU
+Debe especificar un patrón
+El color del gráfico para la memoria caché
+Estadounidense Sun tipo 5
+Mapa de teclado estadounidense USB de Sun
+Mapa de teclado lituano
+El nivel de batería por debajo del cual se muestra en rojo. También el valor en el cual se muestra la advertencia de batería baja.
+%s: %d%%
+Bolitas de hielo abundante
+Gráfica financiera - %s
+Pulse sobre este botón para la lista de comandos anteriores
+Teclas muertas del polaco
+El color del gráfico para la actividad de la CPU relacionada con la prioridad
+Mapa de teclado ruso
+Suizo francés
+Mostrar notas adhesivas
+Ir a la papelera
+Viento con arena
+Insertar caracteres
+Cambio promedio: %s
+Seleccione una tipografía para la nota adhesiva
+Conexión activa, pero no se pudo obtener el tiempo de conexión
+El sistema está funcionando con baterías
+Mapa de teclado eslovaco de Sun
+Paletas disponiblesPILCROW SIGN
+Miniaplicación de inversiones
+Vista compacta
+Información meteorológica de una zona.
+Seleccione si se debe forzar el estilo predeterminado en todas las notas
+Mapa de teclado vietnamita de Sun
+Borrar las notas
+Barra de escritorio (actualización transparente de Mini-Commander)
+Mapa de teclado turco de Sun
+La tecla Win derecha cambia la distribución.
+Norte - Noroeste
+Caracteres mostrados al iniciar la miniaplicación
+Intervalo del tiempo de espera para comprobar el estado de los puntos de montaje
+Unidad de temperatura:
+Mostrar la batería tradicional horizontal en el panel.
+Balance de las posiciones: %s %s (%s)
+Propiedades predeterminadas de la nota
+Fábrica de la miniaplicación Estado de AccessX
+Quedan %d %s %d %s (%d%%)
+Indica si se debe utilizar la tipografía predeterminada del sistema
+%.2f hPa
+Bloquear las notas
+Error de HAL
+Notificación de batería
+Pitar para los avisos
+Usa una url personalizada para el mapa del radar
+Mapa de teclado húngaro Type 5 latino1
+Ajusta el volumen del sonido
+Preferencias de meteorología
+Gráfica descargada
+Especifica la altura predeterminada (en píxeles) de las notas nuevas
+Url para el mapa del radar
+%a %d de %b / %H:%M
+Configuración del monitor
+Punto de condensación:
+Seleccione un tema:
+Los ojos miran en la dirección del puntero del ratón
+insertar carácter especial %s
+Hora de observación desconocida
+Preferencias de línea de comandos
+Usar el valor definido en redvalue como el tiempo que queda para mostrar el diálogo de advertencia en vez de un porcentaje.
+Monitor de enlace inalámbrico
+Comprueba que la ha tecleado correctamente y que no ha activado la tecla «Bloq. Mayús.»
+0 para ninguna etiqueta, 1 para porcentaje y 2 para tiempo restante.Warn when battery charge drops to: [XX] percent
+Avisar cuando quede poco tiempo en vez de bajo porcentaje
+Movimiento promedio:
+Carga media
+Mapa de teclado ucraniano de Sun
+Esta miniaplicación añade una línea de comandos al panel
+Slow stoch
+Un indicador de carga del sistema
+Pequeña tormenta de granizo
+Buscar siguiente
+Esta clave por miniaplicación se ha declarado obsoleta en favor de la clave global, /schemas/apps/mini-commander-global/macropatterns.
+Ver los detalles del pronóstico
+Mapa de teclado estonio
+Deskbar (anterior Mini-Commander)
+Mapa de teclado esloveno de Sun
+Miniaplicación del volumen
+Indica si se debe forzar el uso del color y la tipografía predeterminada en todas las notas
+Anchura del monitor del sistema:
+Teclado genérico
+Mapa de teclado sueco
+Monta dispositivos y discos locales
+Esta nota está desbloqueada.
+Mapa de teclado italiano
+%s: Recibiendo %s Enviando %s
+Carga de memoria
+Mapa de teclado hebreo de Sun
+Configuración del visor
+Mapa de teclado sueco Type 4 de Sun
+Mostrar notas adhesivas
+Usa unidades métricas en vez de las unidades inglesas.
+Preferencias del teclado
+Vista de la zona
+Error al resucitar Nautilus: %s
+Muestra el estado de las características de accesibilidad del teclado
+Preferencias del monitor de carga la batería
+Color del fondo:
+Activar el gráfico de carga de intercambio
+Si esta opción esta deshabilitada se puede utilizar una color personalizado como el color predeterminado para todas las notas adhesivas.
+Mapa de teclado danés
+Unidad de visibilidad:meters
+Descargando gráfica desde Yahoo!
+La unidad en que medir la velocidad del viento.
+Estadounidense DEC 450
+Color de predeterminado para la tipografía
+Fábrica de la miniaplicación montador de discos
+Mapa de teclado francés
+Lanzar el programa
+Fast stoch
+Niebla helada
+Miniaplicación para montar y desmontar volúmenes de bloques.
+Carpeta en la que se encuentra el tema
+Mapa de teclado letón de Sun
+Mostrar distribución actual
+Fábrica de la miniaplicación GWeather
+Gráfica financiera
+Oeste - Suroeste
+¿Borrar esta nota adhesiva?
+Pronóstico no disponible actualmente para este lugar.
+Tiempo desconocido, (%d%%) restante
+Color de fondo del gráfico del espacio de intercambio
+Lluvia moderada
+No se puede ejecutar «%s»
+Indicador del teclado
+Introduzca la contraseña
+El color del gráfico para la actividad de la CPU relacionada con el sistema
+Vaciar desde arriba
+Estadounidense Macintosh
+Cambiar la frecuencia de escalado de la CPU
+Usar el color predeterminado
+Nota: Las cotizaciones están retrasadas al menos 15 minutos. Fuentes: Yahoo!
+Esta utilidad muestra el estado de la batería de su portátil.
+Meteorología de GNOME
+Backend de HAL activado.
+Seleccione una tipografía predeterminada para la nota adhesiva
+Control de volumen...
+(dos imágenes: una para el estado, otra para la carga)
+Mapa de teclado islandés de Sun
+El color del gráfico para la actividad de entrada la red
+Para evitar perder su trabajo: • suspenda su portátil para ahorrar energía, • conecte su portátil a una fuente de alimentación externa, o • guarde los documentos abiertos y apague el portátil.
+5 días
+Tomboy (actualización transparente de notas adhesivas)
+Control de volumen desconocido %d
+Chorros de bolitas de hielo
+Tipo de cambio
+Mapa de teclado danés Type 4 de Sun
+Fábrica para crear la miniaplicación de meteorología.
+Color de la nota:
+Notificar al usuario cuando la batería esté llena.
+Botón para la actualizar
+Redimensionar la nota
+1 año
+Alt+Control cambia la distribución.
+Una aplicación del panel para monitorizar la meteorología local.
+Activar el mapa de radar
+Mapa de teclado francés-canadiense 105 teclas
+Color de fondo del gráfico de carga del sistema
+El nivel de batería por debajo del cual ésta se muestra en rojo. También el valor en el cual se muestra la advertencia de batería baja.
+Indicador de distribución del teclado
+La carga media del sistema es del %0.02f
+Preferencias del monitor de carga de la batería
+Color de tipografía, componente rojo
+Fábrica de la miniaplicación de estado de accesibilidad del teclado
+La ciudad para la que gweather muestra información.
+Mapa de teclado griego
+Define si se debe utilizar la tipografía predeterminada del sistema
+La unidad en la que medir la temperatura.
+Ambas teclas Mayús. juntas cambian la distribución.
+El color del gráfico para la actividad de salida de la red
+Tipografía predeterminada para las notas adhesivas nuevas. Esto debería ser un nombre de tipografía Pango, por ejemplo «Sans Italic 10».
+Altura predeterminada para las notas nuevas
+Húngaro latino 1
+Mapa de teclado alemán USB de Sun
+%s / %s
+Monitor de carga de la batería
+Nivel de valor rojo
+%.1f °F
+Comprueba que está instalado en la ruta correcta y que tienen los permisos correctos
+Insertar «%s»
+Mapa de teclado británico USB Sun
+Coordenadas de la zona
+Adherencia del área de trabajo de las notas adhesivas
+Mapa de teclado ruso plano
+Seleccionar una tipografía para usar en todas las notas adhesivas
+Preferencias de Geyes
+Remolino de polvo en los alrededores
+Ocultar gráficos en la lista de acciones
+Las notas vacías siempre se borran sin confirmación.
+Cascada de nieve
+Mapa de teclado británico Type 4 de Sun
+Mostrar las unidades de la frecuencia
+Actualmente no hay disponible ninguna cotización de acciones
+Lista de entradas de GConfValue que contienen cadenas para las entradas históricas.
+Mostrar el medidor de batería vaciándose desde la parte superior de la batería. Sólo implementado para la vista tradicional de la batería.
+CPU que monitorizar
+Notificación de batería baja
+Tasa de refresco de la miniaplicación en milisegundos
+Debe especificar un patrón y un comando
+Si elije vaciar la papelera, todos los elementos dentro de ella se borrarán y se perderán para siempre. También puede borrarlos por separado.
+Fábrica de la miniaplicación Mini-Commander
+Seleccione el dispositivo y pista para controlar.

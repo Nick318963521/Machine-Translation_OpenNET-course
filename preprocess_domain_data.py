@@ -2,6 +2,7 @@ import argparse
 import csv
 import os
 import random
+import re
 from typing import List, Tuple
 
 
@@ -13,6 +14,33 @@ RAW_CSV = os.path.join(RAW_DIR, "domain_pairs.csv")
 
 def clean_text(text: str) -> str:
     return " ".join(text.strip().split())
+
+
+TOKEN_PATTERN = re.compile(r"\S+")
+
+
+def token_count(text: str) -> int:
+    return len(TOKEN_PATTERN.findall(text))
+
+
+def keep_pair(
+    source: str,
+    target: str,
+    min_tokens: int,
+    max_tokens: int,
+    max_length_ratio: float,
+) -> bool:
+    src_len = token_count(source)
+    tgt_len = token_count(target)
+    if src_len < min_tokens or tgt_len < min_tokens:
+        return False
+    if src_len > max_tokens or tgt_len > max_tokens:
+        return False
+    short_len = min(src_len, tgt_len)
+    long_len = max(src_len, tgt_len)
+    if short_len == 0:
+        return False
+    return (long_len / short_len) <= max_length_ratio
 
 
 def load_parallel_pairs(
@@ -50,6 +78,9 @@ def preprocess_domain_data(
     train_ratio: float = 0.7,
     valid_ratio: float = 0.15,
     min_pairs: int = 10,
+    min_tokens: int = 2,
+    max_tokens: int = 80,
+    max_length_ratio: float = 3.0,
 ) -> None:
     if not 0 < train_ratio < 1:
         raise ValueError("train_ratio must be in (0, 1).")
@@ -59,7 +90,20 @@ def preprocess_domain_data(
         raise ValueError("train_ratio + valid_ratio must be < 1.")
 
     os.makedirs(PROCESSED_DIR, exist_ok=True)
-    pairs = load_parallel_pairs(csv_path, source_col=source_col, target_col=target_col)
+    raw_pairs = load_parallel_pairs(csv_path, source_col=source_col, target_col=target_col)
+    pairs = [
+        (src, tgt)
+        for src, tgt in raw_pairs
+        if keep_pair(
+            src,
+            tgt,
+            min_tokens=min_tokens,
+            max_tokens=max_tokens,
+            max_length_ratio=max_length_ratio,
+        )
+    ]
+
+    dropped_by_filter = len(raw_pairs) - len(pairs)
     if len(pairs) < min_pairs:
         raise ValueError(f"At least {min_pairs} parallel pairs are required.")
 
@@ -88,7 +132,8 @@ def preprocess_domain_data(
             [tgt for _, tgt in split_pairs],
         )
 
-    print(f"Loaded {total} sentence pairs from {csv_path}")
+    print(f"Loaded {len(raw_pairs)} sentence pairs from {csv_path}")
+    print(f"Dropped by filters: {dropped_by_filter}")
     print(f"Columns: source='{source_col}', target='{target_col}'")
     print(f"Train: {len(train_pairs)}")
     print(f"Valid: {len(valid_pairs)}")
@@ -105,6 +150,14 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--train-ratio", type=float, default=0.7, help="Train split ratio.")
     parser.add_argument("--valid-ratio", type=float, default=0.15, help="Valid split ratio.")
     parser.add_argument("--min-pairs", type=int, default=10, help="Minimum required pairs.")
+    parser.add_argument("--min-tokens", type=int, default=2, help="Minimum token count per side.")
+    parser.add_argument("--max-tokens", type=int, default=80, help="Maximum token count per side.")
+    parser.add_argument(
+        "--max-length-ratio",
+        type=float,
+        default=3.0,
+        help="Maximum length ratio between source and target token counts.",
+    )
     return parser.parse_args()
 
 
@@ -118,4 +171,7 @@ if __name__ == "__main__":
         train_ratio=args.train_ratio,
         valid_ratio=args.valid_ratio,
         min_pairs=args.min_pairs,
+        min_tokens=args.min_tokens,
+        max_tokens=args.max_tokens,
+        max_length_ratio=args.max_length_ratio,
     )
